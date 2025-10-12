@@ -74,6 +74,9 @@ def save_cleaned(df: pd.DataFrame, out_dir: str, basename: str) -> tuple[str, st
 	return csv_path, parquet_path
 
 if __name__ == "__main__":
+	# Count Europe exports in 2020
+	europe_2020_exports = df_clean[(df_clean["Continent"].str.lower() == "europe") & (df_clean["Year"] == 2020) & (df_clean["Action"].str.lower() == "export")]
+	print(f"\nEurope export count in 2020: {len(europe_2020_exports)}")
 	src = r"C:\Users\clair\Downloads\Global Crude Petroleum Trade 1995-2021.csv"
 	out_dir = r"C:\Users\clair\Downloads"
 	basename = "Global Crude Petroleum Trade 1995-2021"
@@ -89,6 +92,10 @@ if __name__ == "__main__":
 	csv_out, parquet_out = save_cleaned(df_clean, out_dir, basename)
 	print("Saved cleaned CSV:", csv_out)
 	print("Saved cleaned Parquet:", parquet_out)
+
+	# Count Europe exports in 2020
+	europe_2020_exports = df_clean[(df_clean["Continent"].str.lower() == "europe") & (df_clean["Year"] == 2020) & (df_clean["Action"].str.lower() == "export")]
+	print(f"\nEurope export count in 2020: {len(europe_2020_exports)}")
 # df = load_crude_trade(r"C:\Users\clair\Downloads\Global Crude Petroleum Trade 1995-2021.csv")
 	df_clean = clean_crude_trade(df)
 	print("Cleaned shape:", df_clean.shape)
@@ -186,3 +193,9 @@ print(df.head(10))  # Shows column names and first 10 rows
 print(df.head(10).reset_index(drop=True))
 
 print("\nTable with ID column (first 10 rows):")
+if __name__ == "__main__":
+	# ...existing code...
+	df_clean = clean_crude_trade(df)
+	# Now you can use df_clean below
+	europe_2020_exports = df_clean[(df_clean["Continent"].str.lower() == "europe") & (df_clean["Year"] == 2020) & (df_clean["Action"].str.lower() == "export")]
+	print(f"\nEurope export count in 2020: {len(europe_2020_exports)}")
