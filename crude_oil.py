@@ -185,11 +185,11 @@ if __name__ == "__main__":
 	# Yearly trade value bar chart
 	if "Year" in df.columns and "Trade Value" in df.columns:
 	    yearly_trade = df.groupby("Year")["Trade Value"].sum()
-	    st.write("## Yearly Trade Value")
-	    st.bar_chart(yearly_trade)
+st.write("## Yearly Trade Value")
+st.bar_chart(yearly_trade)
 
-	st.write("---")
-	st.write("Select columns, filter, and use Streamlit's built-in visualization options from the UI.")
+st.write("---")
+st.write("Select columns, filter, and use Streamlit's built-in visualization options from the UI.")
 
 """
 Comprehensive visualization of the crude oil trade data
