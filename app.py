@@ -139,54 +139,7 @@ with colB2:
     )
     st.plotly_chart(fig2c, use_container_width=True)
 
-# --- Layout Section C ---
-colC1, _ = st.columns(2)
-with colC1:
-    avg_cont = (
-        filtered_df.groupby('Continent', as_index=False)['Trade Value'].mean()
-        .rename(columns={'Trade Value': 'Average Trade Value (USD)'})
-        .sort_values('Average Trade Value (USD)', ascending=False)
-    )
-    avg_cont['Average (Trillion USD)'] = avg_cont['Average Trade Value (USD)'] / 1e12
-
-    st.subheader("Average Trade Value per Continent")
-    st.dataframe(avg_cont[['Continent', 'Average (Trillion USD)']].style.format({'Average (Trillion USD)': '{:.3f}'}))
-
-# --- Optional AI Q&A Section ---
-st.write("---")
-st.header("Ask Questions About This Data")
-
-with st.sidebar:
-    st.subheader("AI Assistant Settings")
-    ai_on = st.checkbox("Enable AI Q&A", value=False)
-
-if ai_on:
-    try:
-        from langchain_openai import ChatOpenAI
-        from langchain_experimental.agents import create_pandas_dataframe_agent
-        import os
-        from dotenv import load_dotenv
-
-        load_dotenv()
-        openai_key = os.getenv("OPENAI_API_KEY")
-        if not openai_key:
-            st.error("OpenAI API key not found. Please add it to your .env file.")
-
-        st.subheader("Ask the data (current filters)")
-        question = st.text_input("Type your question about the filtered data")
-        if question and openai_key:
-            with st.spinner("Thinking..."):
-                llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-                agent = create_pandas_dataframe_agent(llm, filtered_df, allow_dangerous_code=True)
-                try:
-                    answer = agent.run(question)
-                    st.markdown(f"**Answer:** {answer}")
-                except Exception as e:
-                    st.error(f"AI error: {e}")
-    except Exception as e:
-        st.error(f"LangChain not available: {e}")
-
-       # --- Layout Section D: Global Trade Visuals ---
+# --- Layout Section D: Global Trade Visuals ---
 st.write("---")
 st.subheader("🌍 Global Trade Insights")
 
@@ -209,8 +162,8 @@ with colD1:
         title="Trade Value by Action",
         color='Action',
         color_discrete_map={
-            'Import': '#00ffff',
-            'Export': '#ff6b6b'
+            'Import': '#ffa600',  # Orange for Imports
+            'Export': '#00ffff'   # Cyan for Exports
         }
     )
 
@@ -262,19 +215,148 @@ with colD2:
     )
     st.plotly_chart(figD2, use_container_width=True)
 
-# # --- AI Q&A Section ---
-# st.write("---")
-# st.header("Ask Questions About This Data")
-# st.write("Use the AI below to ask questions and gain insights from your dataset.")
+# --- Continent Overview: Imports vs Exports ---
+st.write("---")
+st.subheader("🌍 Continent Overview: Imports vs Exports")
 
-st.header("ASK QUESTIONS ABOUT THIS DATA")
-figD2.update_layout(
-    coloraxis_colorbar=dict(
-        title=dict(text="Avg Duration (min)", font=dict(size=14)),
-        thickness=15,  # thinner color bar
-        len=0.6,       # shorter color bar
-        x=0.95          # move legend slightly right
-    ),
-    height=650        # increase map height
+# Prepare data for continent imports vs exports
+continent_action = filtered_df.groupby(['Continent', 'Action'], as_index=False)['Trade Value'].sum()
+continent_action['Trade (Trillion USD)'] = continent_action['Trade Value'] / 1e12
+
+# Create grouped bar chart
+fig_continent = px.bar(
+    continent_action,
+    x='Continent',
+    y='Trade (Trillion USD)',
+    color='Action',
+    barmode='group',
+    title='Continent Overview: Imports vs Exports',
+    color_discrete_map={
+        'Import': '#ffa600',   # Orange for Imports
+        'Export': '#00ffff'    # Cyan for Exports
+    },
+    height=320
 )
+
+fig_continent.update_layout(
+    plot_bgcolor='black',
+    paper_bgcolor='black',
+    font=dict(color='white'),
+    title_font=dict(size=16, color='white'),
+    xaxis=dict(
+        title='Continent',
+        color='white',
+        gridcolor='gray',
+        tickangle=0
+    ),
+    yaxis=dict(
+        title='Trade Value (Trillion USD)',
+        color='white',
+        gridcolor='gray'
+    ),
+    legend=dict(
+        title='Action',
+        orientation='h',
+        y=-0.2,
+        x=0.3,
+        font=dict(size=10, color='white')
+    )
+)
+
+fig_continent.update_traces(marker_line_color='white', marker_line_width=1)
+
+st.plotly_chart(fig_continent, use_container_width=True)
+
+# --- Imports vs Exports Over Time (2 lines) ---
+st.write("---")
+st.subheader("📈 Imports vs Exports Over Time")
+
+# Aggregate by Year and Action across the currently filtered continents/countries
+ie_time = (
+    filtered_df
+    .groupby(['Year', 'Action'], as_index=False)['Trade Value']
+    .sum()
+    .sort_values('Year')
+)
+ie_time['Trade (Trillion USD)'] = ie_time['Trade Value'] / 1e12
+
+fig_ie2 = px.line(
+    ie_time,
+    x='Year',
+    y='Trade (Trillion USD)',
+    color='Action',
+    markers=True,
+    title='Imports vs Exports (Trillion USD)',
+    color_discrete_map={
+        'Import': '#ffa600',  # Orange for Imports
+        'Export': '#00ffff'   # Cyan for Exports
+    },
+    category_orders={'Action': ['Import', 'Export']},
+    height=420
+)
+
+fig_ie2.update_layout(
+    plot_bgcolor='black',
+    paper_bgcolor='black',
+    font=dict(color='white'),
+    title_font=dict(size=16, color='white'),
+    legend=dict(orientation='h', y=-0.2, x=0.3, font=dict(size=10, color='white'))
+)
+fig_ie2.update_xaxes(color='white', gridcolor='gray', showline=True, linewidth=1, linecolor='white')
+fig_ie2.update_yaxes(color='white', gridcolor='gray', showline=True, linewidth=1, linecolor='white')
+
+# --- Imports vs Exports Over Time ---
+st.write("---")
+st.subheader("📈 Imports vs Exports Over Time")
+
+# Aggregate by Year and Action
+ie_time = (
+    filtered_df
+    .groupby(['Year', 'Action'], as_index=False)['Trade Value']
+    .sum()
+)
+
+# Ensure both series exist for all years — fill missing with 0
+years = sorted(ie_time['Year'].dropna().unique().tolist())
+actions = ['Import', 'Export']
+idx = pd.MultiIndex.from_product([years, actions], names=['Year', 'Action'])
+
+ie_time_full = (
+    ie_time.set_index(['Year', 'Action'])
+           .reindex(idx, fill_value=0)
+           .reset_index()
+           .sort_values('Year')
+)
+
+# Scale for readability
+ie_time_full['Trade (Trillion USD)'] = ie_time_full['Trade Value'] / 1e12
+
+# Two-line chart
+fig_ie = px.line(
+    ie_time_full,
+    x='Year',
+    y='Trade (Trillion USD)',
+    color='Action',
+    markers=True,
+    title='Imports vs Exports (Trillion USD)',
+    color_discrete_map={
+        'Import': '#ffa600',  # Orange for Imports
+        'Export': '#00ffff'   # Cyan for Exports
+    },
+    category_orders={'Action': ['Import', 'Export']},
+    height=420
+)
+
+# Dark theme styling to match your dashboard
+fig_ie.update_layout(
+    plot_bgcolor='black',
+    paper_bgcolor='black',
+    font=dict(color='white'),
+    title_font=dict(size=16, color='white'),
+    legend=dict(orientation='h', y=-0.2, x=0.3, font=dict(size=10, color='white'))
+)
+fig_ie.update_xaxes(color='white', gridcolor='gray', showline=True, linewidth=1, linecolor='white')
+fig_ie.update_yaxes(color='white', gridcolor='gray', showline=True, linewidth=1, linecolor='white')
+
+st.plotly_chart(fig_ie, use_container_width=True)
 
