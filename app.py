@@ -185,3 +185,96 @@ if ai_on:
                     st.error(f"AI error: {e}")
     except Exception as e:
         st.error(f"LangChain not available: {e}")
+
+       # --- Layout Section D: Global Trade Visuals ---
+st.write("---")
+st.subheader("🌍 Global Trade Insights")
+
+# Create two columns — Donut smaller, Map larger
+colD1, colD2 = st.columns([1, 2])  # 1/3 vs 2/3 layout
+
+# --- 1️⃣ Donut Chart: Trade Value by Action ---
+with colD1:
+    trade_action = (
+        filtered_df.groupby('Action', as_index=False)['Trade Value'].sum()
+        .sort_values('Trade Value', ascending=False)
+    )
+    trade_action['Trade (Trillion USD)'] = trade_action['Trade Value'] / 1e12
+
+    figD1 = px.pie(
+        trade_action,
+        values='Trade (Trillion USD)',
+        names='Action',
+        hole=0.55,
+        title="Trade Value by Action",
+        color='Action',
+        color_discrete_map={
+            'Import': '#00ffff',
+            'Export': '#ff6b6b'
+        }
+    )
+
+    figD1.update_layout(
+        plot_bgcolor='black',
+        paper_bgcolor='black',
+        font=dict(color='white', size=13),
+        title_font=dict(size=15, color='white'),
+        legend=dict(
+            title='Action',
+            orientation='h',
+            y=-0.2, x=0.15,
+            font=dict(size=10, color='white')
+        )
+    )
+    st.plotly_chart(figD1, use_container_width=True)
+
+# --- 2️⃣ World Map: Trade Value by Country ---
+with colD2:
+    country_trade = (
+        filtered_df.groupby('Country', as_index=False)['Trade Value'].sum()
+    )
+    country_trade['Trade (Billion USD)'] = country_trade['Trade Value'] / 1e9
+
+    figD2 = px.choropleth(
+        country_trade,
+        locations="Country",
+        locationmode="country names",
+        color="Trade (Billion USD)",
+        hover_name="Country",
+        color_continuous_scale="Viridis",
+        title="All Trades: Country-Level View (Billion USD)",
+        height=650
+    )
+
+    figD2.update_layout(
+        geo=dict(bgcolor='rgba(0,0,0,0)', showframe=False, showcoastlines=True),
+        plot_bgcolor='black',
+        paper_bgcolor='black',
+        font=dict(color='white'),
+        title_font=dict(size=16, color='white'),
+        coloraxis_colorbar=dict(
+            title=dict(text="Trade (B USD)", font=dict(size=14, color='white')),
+            tickfont=dict(color='white'),
+            thickness=15,
+            len=0.6,
+            x=0.95
+        )
+    )
+    st.plotly_chart(figD2, use_container_width=True)
+
+# # --- AI Q&A Section ---
+# st.write("---")
+# st.header("Ask Questions About This Data")
+# st.write("Use the AI below to ask questions and gain insights from your dataset.")
+
+st.header("ASK QUESTIONS ABOUT THIS DATA")
+figD2.update_layout(
+    coloraxis_colorbar=dict(
+        title=dict(text="Avg Duration (min)", font=dict(size=14)),
+        thickness=15,  # thinner color bar
+        len=0.6,       # shorter color bar
+        x=0.95          # move legend slightly right
+    ),
+    height=650        # increase map height
+)
+
