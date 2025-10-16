@@ -17,3 +17,5 @@ __pycache__/
 # OpenAI
 OPENAI_API_KEY="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"
 .env
+.streamlit/secrets.toml
+.streamlit/secrets.toml
