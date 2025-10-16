@@ -459,3 +459,4 @@ if _langchain_ok and _lcopenai_ok and _OPENAI_AVAILABLE:
             st.session_state["qa_history"] = []
 else:
     st.info("Langchain and langchain-openai are required for GPT-4 Q&A. Please install them in your environment.")
+
