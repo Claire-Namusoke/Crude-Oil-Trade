@@ -11,3 +11,8 @@ __pycache__/
 
 # VSCode
 .vscode/
+# Copy this file to .streamlit/secrets.toml and add your keys.
+# This file is intentionally committed as a template.
+
+# OpenAI
+OPENAI_API_KEY = "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"
