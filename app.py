@@ -789,3 +789,15 @@ if not any(isinstance(h, logging.StreamHandler) for h in root_logger.handlers):
         pass
 
 root_logger.setLevel(logging.INFO)
+
+import os
+
+# Get the API key from environment variable
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    st.error("OpenAI API key not found. Please set it as an environment variable.")
+else:
+    # Example: initialize OpenAI client
+    import openai
+    openai.api_key = api_key
