@@ -9,6 +9,9 @@ import numpy as np
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
 import os
+import logging
+from logging.handlers import RotatingFileHandler
+
 try:
     import openai  # Optional: only used if you enable chat later
     _OPENAI_AVAILABLE = True
@@ -463,4 +466,23 @@ if _langchain_ok and _lcopenai_ok and _OPENAI_AVAILABLE:
             st.session_state["qa_history"] = []
 else:
     st.info("Langchain and langchain-openai are required for GPT-4 Q&A. Please install them in your environment.")
+
+# Safe logging setup (prevents Windows "file already in use" from multiple processes/reloads)
+LOG_PATH = os.path.join(os.path.dirname(__file__), "app.log")
+root_logger = logging.getLogger()
+if not any(isinstance(h, (RotatingFileHandler, logging.FileHandler)) for h in root_logger.handlers):
+    root_logger.setLevel(logging.INFO)
+    formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s")
+    try:
+        fh = RotatingFileHandler(LOG_PATH, maxBytes=10 * 1024 * 1024, backupCount=5, encoding="utf-8", delay=True)
+        fh.setLevel(logging.INFO)
+        fh.setFormatter(formatter)
+        root_logger.addHandler(fh)
+    except Exception as _e:
+        # fallback to console logging if file cannot be opened
+        sh = logging.StreamHandler()
+        sh.setLevel(logging.INFO)
+        sh.setFormatter(formatter)
+        root_logger.addHandler(sh)
+root_logger.info("app starting")
 
