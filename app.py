@@ -1,6 +1,10 @@
 import streamlit as st
+try:
+    import plotly.express as px
+except Exception:
+    st.error("Missing dependency: plotly. Add 'plotly' to requirements.txt and redeploy (or pip install plotly in your environment).")
+    st.stop()
 import pandas as pd
-import plotly.express as px
 import numpy as np
 import matplotlib.colors as mcolors
 from matplotlib.colors import LinearSegmentedColormap
