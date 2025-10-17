@@ -58,7 +58,7 @@ st.markdown("""
 st.title("🌍 Global Crude Oil Trade Dashboard (1995–2021)")
 
 # === Load and clean data ===
-DATA_PATH = "C:/Users/clair/Downloads/Global Crude Petroleum Trade 1995-2021.cleaned.csv"
+DATA_PATH = "Global Crude Petroleum Trade 1995-2021.cleaned.csv"
 try:
     df = pd.read_csv(DATA_PATH)
 except Exception as e:
