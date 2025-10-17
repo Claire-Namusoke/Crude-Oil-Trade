@@ -4,26 +4,26 @@ from sqlalchemy import create_engine
 import pyodbc
 
 
-# Database connection parameters
-server_name = 'CLAIRE-NAMUSOKE\\SQLEXPRESS'
-database_name = 'CrudeOilTrade'
+# # Database connection parameters
+# server_name = 'CLAIRE-NAMUSOKE\\SQLEXPRESS'
+# database_name = 'CrudeOilTrade'
 
-# Create a database engine
-engine = create_engine(f'mssql+pyodbc://{server_name}/{database_name}?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes', fast_executemany=True)
+# # Create a database engine
+# engine = create_engine(f'mssql+pyodbc://{server_name}/{database_name}?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes', fast_executemany=True)
 
-# Test connection
-def test_connection():
-    try:
-        # Connect to the database
-        with engine.connect() as connection:
-            # no-op to ensure the context manager block is not empty;
-            # replace with a lightweight check (e.g., connection.execute("SELECT 1"))
-            pass
-    except Exception as e:
-        st.error(f"Failed to establish connection with the database. Error: {e}")
+# # Test connection
+# def test_connection():
+#     try:
+#         # Connect to the database
+#         with engine.connect() as connection:
+#             # no-op to ensure the context manager block is not empty;
+#             # replace with a lightweight check (e.g., connection.execute("SELECT 1"))
+#             pass
+#     except Exception as e:
+#         st.error(f"Failed to establish connection with the database. Error: {e}")
 
-# Run the test
-test_connection()
+# # Run the test
+# test_connection()
 
 try:
     import plotly.express as px
