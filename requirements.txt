@@ -8,3 +8,4 @@ langchain-openai
 langchain-experimental
 pyodbc
 sqlalchemy
+tabulate
