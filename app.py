@@ -58,13 +58,34 @@ st.markdown("""
 st.title("🌍 Global Crude Oil Trade Dashboard (1995–2021)")
 
 # === Load and clean data ===
-DATA_PATH = "Global Crude Petroleum Trade 1995-2021.cleaned.csv"
+import os
+import pandas as pd
+import streamlit as st
+
+# Get folder where app.py lives, fallback to cwd if __file__ is not defined
 try:
-    df = pd.read_csv(DATA_PATH)
+    current_dir = os.path.dirname(__file__)
+    if current_dir == '':
+        raise Exception
+except Exception:
+    current_dir = os.getcwd()  # fallback
+    st.write("Using working directory:", current_dir)
+
+file_name = "Global Crude Petroleum Trade 1995-2021.cleaned.csv"
+file_path = os.path.join(current_dir, file_name)
+
+st.write("Looking for CSV at:", file_path)
+st.write("Files in folder:", os.listdir(current_dir))  # now safe
+
+# Load CSV
+try:
+    df = pd.read_csv(file_path)
+    st.write("CSV loaded successfully!")
 except Exception as e:
-    st.error(f"Failed to load data from: {DATA_PATH}\nError: {e}")
-    st.info("Please verify the file path or place the CSV at the specified location.")
+    st.error(f"Failed to load CSV at: {file_path}\nError: {e}")
     st.stop()
+
+
 df['Continent'] = df['Continent'].astype(str).str.strip()
 df['Country'] = df['Country'].astype(str).str.strip()
 df['Action'] = df['Action'].astype(str).str.strip().str.title()
