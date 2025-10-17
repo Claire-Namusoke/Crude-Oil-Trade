@@ -6,3 +6,5 @@ matplotlib
 langchain
 langchain-openai
 langchain-experimental
+pyodbc
+sqlalchemy

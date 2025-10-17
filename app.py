@@ -3,6 +3,7 @@ import streamlit as st
 from sqlalchemy import create_engine
 import pyodbc
 
+
 # Database connection parameters
 server_name = 'CLAIRE-NAMUSOKE\\SQLEXPRESS'
 database_name = 'CrudeOilTrade'
