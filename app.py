@@ -1,4 +1,27 @@
 import streamlit as st
+import streamlit as st
+from sqlalchemy import create_engine
+import pyodbc
+
+# Database connection parameters
+server_name = 'CLAIRE-NAMUSOKE\\SQLEXPRESS'
+database_name = 'CrudeOilTrade'
+
+# Create a database engine
+engine = create_engine(f'mssql+pyodbc://{server_name}/{database_name}?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes', fast_executemany=True)
+
+# Test connection
+def test_connection():
+    try:
+        # Connect to the database
+        with engine.connect() as connection:
+            st.write("Database connection successful!")
+    except Exception as e:
+        st.error(f"Failed to establish connection with the database. Error: {e}")
+
+# Run the test
+test_connection()
+
 try:
     import plotly.express as px
 except Exception:
@@ -322,9 +345,7 @@ def _read_toml_key(paths, var):
     return None
 
 def _get_openai_key():
-    # Priority: Streamlit secrets -> session_state -> environment -> local secrets.toml files -> .secret.env fallback
     try:
-        # Streamlit secrets (works when deployed or when .streamlit/secrets.toml is present)
         key = None
         try:
             key = st.secrets.get("OPENAI_API_KEY")
@@ -801,3 +822,4 @@ else:
     # Example: initialize OpenAI client
     import openai
     openai.api_key = api_key
+
