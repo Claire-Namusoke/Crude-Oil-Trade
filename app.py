@@ -16,7 +16,9 @@ def test_connection():
     try:
         # Connect to the database
         with engine.connect() as connection:
-            st.write("Database connection successful!")
+            # no-op to ensure the context manager block is not empty;
+            # replace with a lightweight check (e.g., connection.execute("SELECT 1"))
+            pass
     except Exception as e:
         st.error(f"Failed to establish connection with the database. Error: {e}")
 
@@ -69,18 +71,18 @@ try:
         raise Exception
 except Exception:
     current_dir = os.getcwd()  # fallback
-    st.write("Using working directory:", current_dir)
+    
 
 file_name = "Global Crude Petroleum Trade 1995-2021.cleaned.csv"
 file_path = os.path.join(current_dir, file_name)
 
-st.write("Looking for CSV at:", file_path)
-st.write("Files in folder:", os.listdir(current_dir))  # now safe
+# st.write("Looking for CSV at:", file_path)
+# st.write("Files in folder:", os.listdir(current_dir))  # now safe
 
 # Load CSV
 try:
     df = pd.read_csv(file_path)
-    st.write("CSV loaded successfully!")
+    
 except Exception as e:
     st.error(f"Failed to load CSV at: {file_path}\nError: {e}")
     st.stop()
@@ -113,7 +115,6 @@ else:
 df_year = df[(df['Year'] >= selected_years[0]) & (df['Year'] <= selected_years[1])]
 filtered_df = df_year[df_year['Continent'].isin(selected_continents)]
 
-st.caption(f"Active continents: {', '.join(selected_continents)} | Years: {selected_years[0]}–{selected_years[1]}")
 
 if filtered_df.empty:
     st.warning("No data matches your current filters. Try selecting more continents or widening the year range.")
@@ -252,7 +253,9 @@ with colA4:
             title="All Trades: Continent-Level View (Billion USD)",
             height=350
         )
-        figA4.update_layout(geo=dict(bgcolor='rgba(0,0,0,0)',showframe=False,showcoastlines=True), plot_bgcolor='black', paper_bgcolor='black', font=dict(color='white'), title_font=dict(size=16,color='white'))
+        figA4.update_layout(geo=dict(bgcolor='rgba(0,0,0,0)',showframe=False,showcoastlines=True), 
+                            plot_bgcolor='black', paper_bgcolor='black',font=dict(color='white'), 
+                            title_font=dict(size=16,color='white'))
     st.plotly_chart(figA4, use_container_width=True)
 
 # YoY % Change and Pie chart
@@ -283,16 +286,32 @@ _langchain_ok = importlib.util.find_spec("langchain") is not None
 _lcopenai_ok = importlib.util.find_spec("langchain_openai") is not None
 
 # Path for the .secret.env file (next to this script)
+import os
+import streamlit as st
+
+# Path for the .secret.env file (next to this script)
 _ENV_PATH = os.path.join(os.path.dirname(__file__), ".secret.env")
 _ENV_VAR = "OPENAI_API_KEY"
 
 def _get_openai_key():
-    try:
-        return st.session_state.get(_ENV_VAR) or os.getenv(_ENV_VAR) or st.secrets.get(_ENV_VAR)
-    except Exception:
-        return st.session_state.get(_ENV_VAR) or os.getenv(_ENV_VAR)
+    """
+    Returns the OpenAI API key in this order:
+    1. st.session_state
+    2. Streamlit Secrets (cloud)
+    3. Local environment variable
+    4. .secret.env file (local, optional)
+    """
+    key = st.session_state.get(_ENV_VAR)       # 1. session_state
+    if not key and st.secrets.get(_ENV_VAR):   # 2. Streamlit Cloud
+        key = st.secrets.get(_ENV_VAR)
+    if not key and os.getenv(_ENV_VAR):        # 3. local env var
+        key = os.getenv(_ENV_VAR)
+    if not key:                                # 4. .secret.env file
+        key = _read_env_var(_ENV_PATH, _ENV_VAR)
+    return key
 
 def _read_env_var(path, var):
+    """Read a variable from a .env file."""
     try:
         if not os.path.exists(path):
             return None
@@ -308,6 +327,7 @@ def _read_env_var(path, var):
     return None
 
 def _write_env_var(path, var, val):
+    """Write or update a variable in a .env file (local use)."""
     try:
         lines = []
         if os.path.exists(path):
@@ -335,6 +355,7 @@ def _write_env_var(path, var, val):
         return False
 
 def _remove_env_var(path, var):
+    """Remove a variable from a .env file (local use)."""
     try:
         if not os.path.exists(path):
             return True
@@ -346,6 +367,7 @@ def _remove_env_var(path, var):
         return True
     except Exception:
         return False
+
 
 # Continue with LangChain checks and Q&A only if LangChain packages are present and an API key is available via Streamlit secrets / environment / local secrets.toml
 def _read_toml_key(paths, var):

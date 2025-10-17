@@ -5942,3 +5942,1985 @@ ID,Continent,Country,Trade Value,Year,Action,IN_FILTER
 5941,Oceania,Vanuatu,17123.0,2008,Import,True
 5942,Oceania,Wallis and Futuna,2219.0,2008,Import,True
 5943,Oceania,Samoa,13.0,2008,Import,True
+5944,South America,Argentina,45560171.0,2008,Import,True
+5945,South America,Brazil,17804633233.0,2008,Import,True
+5946,South America,Chile,7629333515.0,2008,Import,True
+5947,South America,Colombia,250931741.0,2008,Import,True
+5948,South America,Ecuador,6363.0,2008,Import,True
+5949,South America,Peru,3202547584.0,2008,Import,True
+5950,South America,Uruguay,1619110323.0,2008,Import,True
+5951,South America,Venezuela,125962508.0,2008,Import,True
+5952,Africa,Angola,400927.0,2007,Import,True
+5953,Africa,Burundi,33166.0,2007,Import,True
+5954,Africa,Botswana,192755.0,2007,Import,True
+5955,Africa,Central African Republic,13594.0,2007,Import,True
+5956,Africa,Cote d'Ivoire,1887149398.0,2007,Import,True
+5957,Africa,Cameroon,557769661.0,2007,Import,True
+5958,Africa,Democratic Republic of the Congo,448217.0,2007,Import,True
+5959,Africa,Republic of the Congo,7651.0,2007,Import,True
+5960,Africa,Comoros,3472.0,2007,Import,True
+5961,Africa,Algeria,16786.0,2007,Import,True
+5962,Africa,Egypt,1173743660.0,2007,Import,True
+5963,Africa,Ethiopia,874235.0,2007,Import,True
+5964,Africa,Gabon,5570.0,2007,Import,True
+5965,Africa,Ghana,716199724.0,2007,Import,True
+5966,Africa,Guinea,4082.0,2007,Import,True
+5967,Africa,Gambia,893.0,2007,Import,True
+5968,Africa,Equatorial Guinea,36793974.0,2007,Import,True
+5969,Africa,Kenya,656584830.0,2007,Import,True
+5970,Africa,Libya,1403.0,2007,Import,True
+5971,Africa,Morocco,2166961255.0,2007,Import,True
+5972,Africa,Madagascar,9491.0,2007,Import,True
+5973,Africa,Mali,12436.0,2007,Import,True
+5974,Africa,Mozambique,3245.0,2007,Import,True
+5975,Africa,Mauritania,40473.0,2007,Import,True
+5976,Africa,Mauritius,27616.0,2007,Import,True
+5977,Africa,Malawi,86299.0,2007,Import,True
+5978,Africa,Namibia,399206.0,2007,Import,True
+5979,Africa,Niger,186224822.0,2007,Import,True
+5980,Africa,Nigeria,4819324.0,2007,Import,True
+5981,Africa,Rwanda,4990.0,2007,Import,True
+5982,Africa,Sudan,4243407.0,2007,Import,True
+5983,Africa,Senegal,376797983.0,2007,Import,True
+5984,Africa,Eswatini,438713.0,2007,Import,True
+5985,Africa,Seychelles,3333.0,2007,Import,True
+5986,Africa,Tunisia,604430314.0,2007,Import,True
+5987,Africa,Tanzania,11327436.0,2007,Import,True
+5988,Africa,Uganda,353293.0,2007,Import,True
+5989,Africa,South Africa,10926163468.0,2007,Import,True
+5990,Africa,Zambia,198804590.0,2007,Import,True
+5991,Africa,Zimbabwe,76729.0,2007,Import,True
+5992,Asia,United Arab Emirates,70987147.0,2007,Import,True
+5993,Asia,Bangladesh,199063878.0,2007,Import,True
+5994,Asia,Bahrain,82442.0,2007,Import,True
+5995,Asia,Brunei,3603666.0,2007,Import,True
+5996,Asia,Bhutan,536737.0,2007,Import,True
+5997,Asia,China,76091671886.0,2007,Import,True
+5998,Asia,Cyprus,1449004818.0,2007,Import,True
+5999,Asia,Georgia,90594659.0,2007,Import,True
+6000,Asia,Hong Kong,115934911.0,2007,Import,True
+6001,Asia,Indonesia,9233137737.0,2007,Import,True
+6002,Asia,India,49589763894.0,2007,Import,True
+6003,Asia,Iran,1447403167.0,2007,Import,True
+6004,Asia,Iraq,9576.0,2007,Import,True
+6005,Asia,Israel,1600083105.0,2007,Import,True
+6006,Asia,Jordan,1906737651.0,2007,Import,True
+6007,Asia,Japan,94524400734.0,2007,Import,True
+6008,Asia,Kazakhstan,1968936404.0,2007,Import,True
+6009,Asia,Kyrgyzstan,11699912.0,2007,Import,True
+6010,Asia,Cambodia,140.0,2007,Import,True
+6011,Asia,South Korea,55555161621.0,2007,Import,True
+6012,Asia,Kuwait,241170.0,2007,Import,True
+6013,Asia,Laos,55682.0,2007,Import,True
+6014,Asia,Lebanon,132160.0,2007,Import,True
+6015,Asia,Sri Lanka,912863330.0,2007,Import,True
+6016,Asia,Maldives,286.0,2007,Import,True
+6017,Asia,Burma,55000.0,2007,Import,True
+6018,Asia,Malaysia,4856950731.0,2007,Import,True
+6019,Asia,Oman,1880720.0,2007,Import,True
+6020,Asia,Pakistan,3268189523.0,2007,Import,True
+6021,Asia,Philippines,5275869348.0,2007,Import,True
+6022,Asia,North Korea,496142652.0,2007,Import,True
+6023,Asia,Palestine,1260.0,2007,Import,True
+6024,Asia,Qatar,25201.0,2007,Import,True
+6025,Asia,Saudi Arabia,1531531.0,2007,Import,True
+6026,Asia,Singapore,21448582583.0,2007,Import,True
+6027,Asia,Syria,181336302.0,2007,Import,True
+6028,Asia,Thailand,18008871508.0,2007,Import,True
+6029,Asia,Tajikistan,55770061.0,2007,Import,True
+6030,Asia,Turkey,3776316963.0,2007,Import,True
+6031,Asia,Uzbekistan,229814340.0,2007,Import,True
+6032,Asia,Vietnam,29693182.0,2007,Import,True
+6033,Asia,Chinese Taipei,24123897003.0,2007,Import,True
+6034,Asia,Yemen,2606952.0,2007,Import,True
+6035,Europe,Albania,6384.0,2007,Import,True
+6036,Europe,Andorra,1792.0,2007,Import,True
+6037,Europe,Austria,3717021544.0,2007,Import,True
+6038,Europe,Belgium,20189479186.0,2007,Import,True
+6039,Europe,Bulgaria,2974782566.0,2007,Import,True
+6040,Europe,Bosnia and Herzegovina,316839.0,2007,Import,True
+6041,Europe,Belarus,6658572948.0,2007,Import,True
+6042,Europe,Switzerland,10842707983.0,2007,Import,True
+6043,Europe,Czechia,3346243809.0,2007,Import,True
+6044,Europe,Germany,35130850868.0,2007,Import,True
+6045,Europe,Denmark,1199033815.0,2007,Import,True
+6046,Europe,Spain,23207983327.0,2007,Import,True
+6047,Europe,Estonia,50024161.0,2007,Import,True
+6048,Europe,Finland,6276136272.0,2007,Import,True
+6049,Europe,France,32036861833.0,2007,Import,True
+6050,Europe,United Kingdom,27966695284.0,2007,Import,True
+6051,Europe,Gibraltar,8816392.0,2007,Import,True
+6052,Europe,Greece,6318378543.0,2007,Import,True
+6053,Europe,Croatia,1176686691.0,2007,Import,True
+6054,Europe,Hungary,3353713149.0,2007,Import,True
+6055,Europe,Ireland,2406842900.0,2007,Import,True
+6056,Europe,Iceland,33941061.0,2007,Import,True
+6057,Europe,Italy,50875922067.0,2007,Import,True
+6058,Europe,Lithuania,1687981893.0,2007,Import,True
+6059,Europe,Luxembourg,13714.0,2007,Import,True
+6060,Europe,Latvia,632087311.0,2007,Import,True
+6061,Europe,Moldova,339632.0,2007,Import,True
+6062,Europe,North Macedonia,498922497.0,2007,Import,True
+6063,Europe,Malta,49000.0,2007,Import,True
+6064,Europe,Netherlands,54307898444.0,2007,Import,True
+6065,Europe,Norway,866107500.0,2007,Import,True
+6066,Europe,Poland,9824339620.0,2007,Import,True
+6067,Europe,Portugal,5825854490.0,2007,Import,True
+6068,Europe,Romania,3059848330.0,2007,Import,True
+6069,Europe,Russia,658590009.0,2007,Import,True
+6070,Europe,Serbia,1317783961.0,2007,Import,True
+6071,Europe,Slovakia,3001881173.0,2007,Import,True
+6072,Europe,Slovenia,3111784.0,2007,Import,True
+6073,Europe,Sweden,6735472841.0,2007,Import,True
+6074,Europe,Ukraine,4823166382.0,2007,Import,True
+6075,North America,Aruba,1620022925.0,2007,Import,True
+6076,North America,Anguilla,1782.0,2007,Import,True
+6077,North America,Netherlands Antilles,333899180.0,2007,Import,True
+6078,North America,Antigua and Barbuda,89.0,2007,Import,True
+6079,North America,Bahamas,497098203.0,2007,Import,True
+6080,North America,Bermuda,720678.0,2007,Import,True
+6081,North America,Canada,18466429913.0,2007,Import,True
+6082,North America,Costa Rica,329054411.0,2007,Import,True
+6083,North America,Cuba,34614864.0,2007,Import,True
+6084,North America,Cayman Islands,19684532.0,2007,Import,True
+6085,North America,Dominica,569.0,2007,Import,True
+6086,North America,Dominican Republic,854307237.0,2007,Import,True
+6087,North America,Grenada,1265.0,2007,Import,True
+6088,North America,Greenland,251.0,2007,Import,True
+6089,North America,Guatemala,260982.0,2007,Import,True
+6090,North America,Honduras,25765.0,2007,Import,True
+6091,North America,Haiti,12398742.0,2007,Import,True
+6092,North America,Jamaica,509976732.0,2007,Import,True
+6093,North America,Saint Kitts and Nevis,66.0,2007,Import,True
+6094,North America,Saint Lucia,1057820380.0,2007,Import,True
+6095,North America,Mexico,20160.0,2007,Import,True
+6096,North America,Nicaragua,572205260.0,2007,Import,True
+6097,North America,Panama,136596118.0,2007,Import,True
+6098,North America,El Salvador,388256116.0,2007,Import,True
+6099,North America,Trinidad and Tobago,1834314045.0,2007,Import,True
+6100,North America,United States,235385000000.0,2007,Import,True
+6101,North America,Saint Vincent and the Grenadines,19930.0,2007,Import,True
+6102,North America,British Virgin Islands,530070816.0,2007,Import,True
+6103,Oceania,Australia,11725829330.0,2007,Import,True
+6104,Oceania,Cook Islands,38775.0,2007,Import,True
+6105,Oceania,Fiji,687.0,2007,Import,True
+6106,Oceania,Micronesia,206473.0,2007,Import,True
+6107,Oceania,Kiribati,1963541.0,2007,Import,True
+6108,Oceania,New Caledonia,3605.0,2007,Import,True
+6109,Oceania,New Zealand,1972376902.0,2007,Import,True
+6110,Oceania,Palau,6018.0,2007,Import,True
+6111,Oceania,Papua New Guinea,401411916.0,2007,Import,True
+6112,Oceania,French Polynesia,651.0,2007,Import,True
+6113,Oceania,Tokelau,2156.0,2007,Import,True
+6114,Oceania,Tonga,1704.0,2007,Import,True
+6115,Oceania,Vanuatu,10656.0,2007,Import,True
+6116,Oceania,Samoa,494.0,2007,Import,True
+6117,South America,Argentina,96345981.0,2007,Import,True
+6118,South America,Bolivia,54490.0,2007,Import,True
+6119,South America,Brazil,11248652194.0,2007,Import,True
+6120,South America,Chile,4810079637.0,2007,Import,True
+6121,South America,Colombia,394299143.0,2007,Import,True
+6122,South America,Ecuador,8333.0,2007,Import,True
+6123,South America,Guyana,26642.0,2007,Import,True
+6124,South America,Peru,2565503429.0,2007,Import,True
+6125,South America,Paraguay,16523.0,2007,Import,True
+6126,South America,Uruguay,795729369.0,2007,Import,True
+6127,South America,Venezuela,116564448.0,2007,Import,True
+6128,Africa,Angola,500239.0,2006,Import,True
+6129,Africa,Burundi,21569.0,2006,Import,True
+6130,Africa,Benin,404.0,2006,Import,True
+6131,Africa,Burkina Faso,2106.0,2006,Import,True
+6132,Africa,Botswana,328696.0,2006,Import,True
+6133,Africa,Cote d'Ivoire,1518418882.0,2006,Import,True
+6134,Africa,Cameroon,793440625.0,2006,Import,True
+6135,Africa,Democratic Republic of the Congo,278368.0,2006,Import,True
+6136,Africa,Republic of the Congo,1010.0,2006,Import,True
+6137,Africa,Comoros,1076.0,2006,Import,True
+6138,Africa,Cape Verde,304.0,2006,Import,True
+6139,Africa,Djibouti,47008.0,2006,Import,True
+6140,Africa,Algeria,3879.0,2006,Import,True
+6141,Africa,Egypt,1127815522.0,2006,Import,True
+6142,Africa,Ethiopia,838768.0,2006,Import,True
+6143,Africa,Gabon,8731.0,2006,Import,True
+6144,Africa,Ghana,748170383.0,2006,Import,True
+6145,Africa,Guinea,97546.0,2006,Import,True
+6146,Africa,Gambia,1211251.0,2006,Import,True
+6147,Africa,Guinea-Bissau,1258155.0,2006,Import,True
+6148,Africa,Equatorial Guinea,201.0,2006,Import,True
+6149,Africa,Kenya,679311869.0,2006,Import,True
+6150,Africa,Morocco,2564394195.0,2006,Import,True
+6151,Africa,Madagascar,808.0,2006,Import,True
+6152,Africa,Mali,9467068.0,2006,Import,True
+6153,Africa,Mozambique,151446.0,2006,Import,True
+6154,Africa,Mauritania,10830.0,2006,Import,True
+6155,Africa,Mauritius,93377.0,2006,Import,True
+6156,Africa,Namibia,2687211.0,2006,Import,True
+6157,Africa,Niger,130.0,2006,Import,True
+6158,Africa,Nigeria,40765784.0,2006,Import,True
+6159,Africa,Rwanda,8573.0,2006,Import,True
+6160,Africa,Sudan,3383259.0,2006,Import,True
+6161,Africa,Senegal,146346896.0,2006,Import,True
+6162,Africa,Sierra Leone,973489.0,2006,Import,True
+6163,Africa,Eswatini,969706.0,2006,Import,True
+6164,Africa,Seychelles,1104.0,2006,Import,True
+6165,Africa,Tunisia,527276785.0,2006,Import,True
+6166,Africa,Tanzania,79851.0,2006,Import,True
+6167,Africa,Uganda,68984.0,2006,Import,True
+6168,Africa,South Africa,9487694519.0,2006,Import,True
+6169,Africa,Zambia,183056824.0,2006,Import,True
+6170,Africa,Zimbabwe,96028.0,2006,Import,True
+6171,Asia,United Arab Emirates,34094846.0,2006,Import,True
+6172,Asia,Bangladesh,197075186.0,2006,Import,True
+6173,Asia,Bahrain,5429945.0,2006,Import,True
+6174,Asia,Brunei,21445931.0,2006,Import,True
+6175,Asia,China,56253674474.0,2006,Import,True
+6176,Asia,Cyprus,1439725067.0,2006,Import,True
+6177,Asia,Hong Kong,127922385.0,2006,Import,True
+6178,Asia,Indonesia,7471627596.0,2006,Import,True
+6179,Asia,India,33449585520.0,2006,Import,True
+6180,Asia,Iran,1645389235.0,2006,Import,True
+6181,Asia,Iraq,2255.0,2006,Import,True
+6182,Asia,Israel,1445014145.0,2006,Import,True
+6183,Asia,Jordan,1855053590.0,2006,Import,True
+6184,Asia,Japan,88084242815.0,2006,Import,True
+6185,Asia,Kazakhstan,1488794160.0,2006,Import,True
+6186,Asia,Kyrgyzstan,3612481.0,2006,Import,True
+6187,Asia,South Korea,47887589620.0,2006,Import,True
+6188,Asia,Kuwait,16371070.0,2006,Import,True
+6189,Asia,Lebanon,16278865.0,2006,Import,True
+6190,Asia,Sri Lanka,894744718.0,2006,Import,True
+6191,Asia,Maldives,1109341.0,2006,Import,True
+6192,Asia,Burma,30000.0,2006,Import,True
+6193,Asia,Malaysia,4365709441.0,2006,Import,True
+6194,Asia,Nepal,1359.0,2006,Import,True
+6195,Asia,Oman,1922870.0,2006,Import,True
+6196,Asia,Pakistan,3177720499.0,2006,Import,True
+6197,Asia,Philippines,4684211965.0,2006,Import,True
+6198,Asia,North Korea,595257874.0,2006,Import,True
+6199,Asia,Saudi Arabia,118843.0,2006,Import,True
+6200,Asia,Singapore,18906954668.0,2006,Import,True
+6201,Asia,Syria,69039.0,2006,Import,True
+6202,Asia,Thailand,17810610443.0,2006,Import,True
+6203,Asia,Timor-Leste,90.0,2006,Import,True
+6204,Asia,Turkey,2381278486.0,2006,Import,True
+6205,Asia,Uzbekistan,128001041.0,2006,Import,True
+6206,Asia,Vietnam,29697462.0,2006,Import,True
+6207,Asia,Chinese Taipei,26552176584.0,2006,Import,True
+6208,Asia,Yemen,82801203.0,2006,Import,True
+6209,Europe,Albania,2865.0,2006,Import,True
+6210,Europe,Austria,3471246777.0,2006,Import,True
+6211,Europe,Belgium,7643789407.0,2006,Import,True
+6212,Europe,Bulgaria,2109352710.0,2006,Import,True
+6213,Europe,Bosnia and Herzegovina,236154.0,2006,Import,True
+6214,Europe,Belarus,5132569273.0,2006,Import,True
+6215,Europe,Switzerland,10101290173.0,2006,Import,True
+6216,Europe,Czechia,3354462134.0,2006,Import,True
+6217,Europe,Germany,33039401667.0,2006,Import,True
+6218,Europe,Denmark,1578376016.0,2006,Import,True
+6219,Europe,Spain,23811305334.0,2006,Import,True
+6220,Europe,Estonia,1347393.0,2006,Import,True
+6221,Europe,Finland,6081608151.0,2006,Import,True
+6222,Europe,France,32065970615.0,2006,Import,True
+6223,Europe,United Kingdom,28109750671.0,2006,Import,True
+6224,Europe,Gibraltar,7567825.0,2006,Import,True
+6225,Europe,Greece,6615501750.0,2006,Import,True
+6226,Europe,Croatia,471736109.0,2006,Import,True
+6227,Europe,Hungary,3113278254.0,2006,Import,True
+6228,Europe,Ireland,1660653916.0,2006,Import,True
+6229,Europe,Iceland,37367032.0,2006,Import,True
+6230,Europe,Italy,49714836489.0,2006,Import,True
+6231,Europe,Lithuania,3182554834.0,2006,Import,True
+6232,Europe,Luxembourg,14223.0,2006,Import,True
+6233,Europe,Latvia,415205520.0,2006,Import,True
+6234,Europe,Moldova,499.0,2006,Import,True
+6235,Europe,North Macedonia,471848099.0,2006,Import,True
+6236,Europe,Malta,2173282.0,2006,Import,True
+6237,Europe,Netherlands,48162899706.0,2006,Import,True
+6238,Europe,Norway,224484723.0,2006,Import,True
+6239,Europe,Poland,8514797849.0,2006,Import,True
+6240,Europe,Portugal,5739674569.0,2006,Import,True
+6241,Europe,Romania,2674801807.0,2006,Import,True
+6242,Europe,Russia,663239182.0,2006,Import,True
+6243,Europe,Serbia,1162076440.0,2006,Import,True
+6244,Europe,Slovakia,2494833915.0,2006,Import,True
+6245,Europe,Slovenia,2859910.0,2006,Import,True
+6246,Europe,Sweden,6719390922.0,2006,Import,True
+6247,Europe,Ukraine,4405481685.0,2006,Import,True
+6248,North America,Aruba,2055386564.0,2006,Import,True
+6249,North America,Anguilla,18.0,2006,Import,True
+6250,North America,Netherlands Antilles,3401070780.0,2006,Import,True
+6251,North America,Antigua and Barbuda,105.0,2006,Import,True
+6252,North America,Bahamas,1234749623.0,2006,Import,True
+6253,North America,Canada,15570847571.0,2006,Import,True
+6254,North America,Costa Rica,102696619.0,2006,Import,True
+6255,North America,Dominica,757.0,2006,Import,True
+6256,North America,Dominican Republic,492342355.0,2006,Import,True
+6257,North America,Grenada,323.0,2006,Import,True
+6258,North America,Greenland,4857.0,2006,Import,True
+6259,North America,Guatemala,3713949.0,2006,Import,True
+6260,North America,Honduras,1776.0,2006,Import,True
+6261,North America,Jamaica,460514632.0,2006,Import,True
+6262,North America,Saint Kitts and Nevis,535.0,2006,Import,True
+6263,North America,Saint Lucia,115675935.0,2006,Import,True
+6264,North America,Mexico,287151.0,2006,Import,True
+6265,North America,Nicaragua,375775107.0,2006,Import,True
+6266,North America,Panama,376609966.0,2006,Import,True
+6267,North America,El Salvador,291752026.0,2006,Import,True
+6268,North America,Trinidad and Tobago,1541250515.0,2006,Import,True
+6269,North America,United States,217765000000.0,2006,Import,True
+6270,North America,Saint Vincent and the Grenadines,11437.0,2006,Import,True
+6271,North America,British Virgin Islands,1173357818.0,2006,Import,True
+6272,Oceania,Australia,9458242438.0,2006,Import,True
+6273,Oceania,Fiji,799.0,2006,Import,True
+6274,Oceania,Micronesia,382424.0,2006,Import,True
+6275,Oceania,Kiribati,1880.0,2006,Import,True
+6276,Oceania,New Caledonia,1058.0,2006,Import,True
+6277,Oceania,New Zealand,1909052703.0,2006,Import,True
+6278,Oceania,Pitcairn Islands,13401550.0,2006,Import,True
+6279,Oceania,Papua New Guinea,371444423.0,2006,Import,True
+6280,Oceania,French Polynesia,738.0,2006,Import,True
+6281,Oceania,Tonga,397.0,2006,Import,True
+6282,Oceania,Vanuatu,282.0,2006,Import,True
+6283,Oceania,Wallis and Futuna,70427.0,2006,Import,True
+6284,Oceania,Samoa,4207.0,2006,Import,True
+6285,South America,Argentina,34255032.0,2006,Import,True
+6286,South America,Bolivia,1511.0,2006,Import,True
+6287,South America,Brazil,9969010334.0,2006,Import,True
+6288,South America,Chile,5337100895.0,2006,Import,True
+6289,South America,Colombia,289396874.0,2006,Import,True
+6290,South America,Ecuador,1234257.0,2006,Import,True
+6291,South America,Peru,2096824954.0,2006,Import,True
+6292,South America,Suriname,36428297.0,2006,Import,True
+6293,South America,Uruguay,762623583.0,2006,Import,True
+6294,South America,Venezuela,794.0,2006,Import,True
+6295,Africa,Angola,76867.0,2005,Import,True
+6296,Africa,Burundi,53318.0,2005,Import,True
+6297,Africa,Benin,829.0,2005,Import,True
+6298,Africa,Burkina Faso,5818.0,2005,Import,True
+6299,Africa,Botswana,304006.0,2005,Import,True
+6300,Africa,Central African Republic,2000.0,2005,Import,True
+6301,Africa,Cote d'Ivoire,1433410670.0,2005,Import,True
+6302,Africa,Cameroon,739675587.0,2005,Import,True
+6303,Africa,Democratic Republic of the Congo,40767.0,2005,Import,True
+6304,Africa,Republic of the Congo,3447.0,2005,Import,True
+6305,Africa,Comoros,179.0,2005,Import,True
+6306,Africa,Djibouti,232783.0,2005,Import,True
+6307,Africa,Algeria,752.0,2005,Import,True
+6308,Africa,Egypt,797969201.0,2005,Import,True
+6309,Africa,Ethiopia,334091.0,2005,Import,True
+6310,Africa,Gabon,54457.0,2005,Import,True
+6311,Africa,Ghana,569519775.0,2005,Import,True
+6312,Africa,Guinea,761391.0,2005,Import,True
+6313,Africa,Gambia,2409704.0,2005,Import,True
+6314,Africa,Guinea-Bissau,2630185.0,2005,Import,True
+6315,Africa,Equatorial Guinea,7.0,2005,Import,True
+6316,Africa,Kenya,609414878.0,2005,Import,True
+6317,Africa,Liberia,1189308.0,2005,Import,True
+6318,Africa,Libya,191.0,2005,Import,True
+6319,Africa,Morocco,1683154975.0,2005,Import,True
+6320,Africa,Madagascar,226.0,2005,Import,True
+6321,Africa,Mali,21488655.0,2005,Import,True
+6322,Africa,Mozambique,6822.0,2005,Import,True
+6323,Africa,Mauritius,8309.0,2005,Import,True
+6324,Africa,Malawi,114483.0,2005,Import,True
+6325,Africa,Namibia,2567595.0,2005,Import,True
+6326,Africa,Niger,69.0,2005,Import,True
+6327,Africa,Nigeria,1118.0,2005,Import,True
+6328,Africa,Sudan,1692.0,2005,Import,True
+6329,Africa,Senegal,344137537.0,2005,Import,True
+6330,Africa,Saint Helena,851.0,2005,Import,True
+6331,Africa,Sierra Leone,1412736.0,2005,Import,True
+6332,Africa,Eswatini,864434.0,2005,Import,True
+6333,Africa,Seychelles,298019.0,2005,Import,True
+6334,Africa,Chad,72166.0,2005,Import,True
+6335,Africa,Togo,1374203.0,2005,Import,True
+6336,Africa,Tunisia,398096173.0,2005,Import,True
+6337,Africa,Tanzania,62619.0,2005,Import,True
+6338,Africa,Uganda,49126.0,2005,Import,True
+6339,Africa,South Africa,6689772365.0,2005,Import,True
+6340,Africa,Zambia,95449978.0,2005,Import,True
+6341,Africa,Zimbabwe,315777.0,2005,Import,True
+6342,Asia,United Arab Emirates,46464931.0,2005,Import,True
+6343,Asia,Azerbaijan,111.0,2005,Import,True
+6344,Asia,Bangladesh,146004169.0,2005,Import,True
+6345,Asia,Bahrain,120162.0,2005,Import,True
+6346,Asia,Brunei,47762731.0,2005,Import,True
+6347,Asia,Bhutan,625.0,2005,Import,True
+6348,Asia,China,41681105104.0,2005,Import,True
+6349,Asia,Cyprus,2466961575.0,2005,Import,True
+6350,Asia,Georgia,16090.0,2005,Import,True
+6351,Asia,Hong Kong,22826567.0,2005,Import,True
+6352,Asia,Indonesia,6203501816.0,2005,Import,True
+6353,Asia,India,3634766650.0,2005,Import,True
+6354,Asia,Iran,654835826.0,2005,Import,True
+6355,Asia,Iraq,27273.0,2005,Import,True
+6356,Asia,Israel,1006796993.0,2005,Import,True
+6357,Asia,Jordan,1572460147.0,2005,Import,True
+6358,Asia,Japan,74423509539.0,2005,Import,True
+6359,Asia,Kazakhstan,828565590.0,2005,Import,True
+6360,Asia,Kyrgyzstan,1461865.0,2005,Import,True
+6361,Asia,South Korea,38017726980.0,2005,Import,True
+6362,Asia,Kuwait,76225.0,2005,Import,True
+6363,Asia,Lebanon,529794.0,2005,Import,True
+6364,Asia,Sri Lanka,644495909.0,2005,Import,True
+6365,Asia,Maldives,574051.0,2005,Import,True
+6366,Asia,Burma,21000.0,2005,Import,True
+6367,Asia,Malaysia,3101426171.0,2005,Import,True
+6368,Asia,Nepal,818224.0,2005,Import,True
+6369,Asia,Oman,550522.0,2005,Import,True
+6370,Asia,Pakistan,2507313471.0,2005,Import,True
+6371,Asia,Philippines,3515749703.0,2005,Import,True
+6372,Asia,North Korea,430410568.0,2005,Import,True
+6373,Asia,Qatar,174297.0,2005,Import,True
+6374,Asia,Saudi Arabia,408129.0,2005,Import,True
+6375,Asia,Singapore,17361889294.0,2005,Import,True
+6376,Asia,Syria,33881.0,2005,Import,True
+6377,Asia,Thailand,15179490731.0,2005,Import,True
+6378,Asia,Tajikistan,7450111.0,2005,Import,True
+6379,Asia,Turkey,1881744894.0,2005,Import,True
+6380,Asia,Uzbekistan,76664102.0,2005,Import,True
+6381,Asia,Vietnam,349602.0,2005,Import,True
+6382,Asia,Chinese Taipei,24425536416.0,2005,Import,True
+6383,Asia,Yemen,6511115.0,2005,Import,True
+6384,Europe,Albania,40.0,2005,Import,True
+6385,Europe,Andorra,12.0,2005,Import,True
+6386,Europe,Austria,2452629184.0,2005,Import,True
+6387,Europe,Belgium,11326026456.0,2005,Import,True
+6388,Europe,Bulgaria,1339410075.0,2005,Import,True
+6389,Europe,Bosnia and Herzegovina,37467359.0,2005,Import,True
+6390,Europe,Belarus,3871987032.0,2005,Import,True
+6391,Europe,Switzerland,9184234313.0,2005,Import,True
+6392,Europe,Czechia,2603516703.0,2005,Import,True
+6393,Europe,Germany,31084345008.0,2005,Import,True
+6394,Europe,Denmark,1181658516.0,2005,Import,True
+6395,Europe,Spain,19962899580.0,2005,Import,True
+6396,Europe,Estonia,775717.0,2005,Import,True
+6397,Europe,Finland,3638865918.0,2005,Import,True
+6398,Europe,France,27421102541.0,2005,Import,True
+6399,Europe,United Kingdom,22265843235.0,2005,Import,True
+6400,Europe,Gibraltar,292660283.0,2005,Import,True
+6401,Europe,Greece,4920547412.0,2005,Import,True
+6402,Europe,Croatia,828372962.0,2005,Import,True
+6403,Europe,Hungary,2224183510.0,2005,Import,True
+6404,Europe,Ireland,1843882809.0,2005,Import,True
+6405,Europe,Iceland,25445357.0,2005,Import,True
+6406,Europe,Italy,38698789923.0,2005,Import,True
+6407,Europe,Lithuania,3129272181.0,2005,Import,True
+6408,Europe,Luxembourg,73131.0,2005,Import,True
+6409,Europe,Latvia,56563349.0,2005,Import,True
+6410,Europe,Moldova,6333.0,2005,Import,True
+6411,Europe,North Macedonia,348756841.0,2005,Import,True
+6412,Europe,Malta,29183.0,2005,Import,True
+6413,Europe,Netherlands,37859609320.0,2005,Import,True
+6414,Europe,Norway,493884523.0,2005,Import,True
+6415,Europe,Poland,6351424135.0,2005,Import,True
+6416,Europe,Portugal,4532339203.0,2005,Import,True
+6417,Europe,Romania,2390005275.0,2005,Import,True
+6418,Europe,Russia,380083801.0,2005,Import,True
+6419,Europe,Slovakia,1949940313.0,2005,Import,True
+6420,Europe,Slovenia,3158137.0,2005,Import,True
+6421,Europe,Sweden,6332746098.0,2005,Import,True
+6422,Europe,Ukraine,4610898123.0,2005,Import,True
+6423,Europe,Yugoslavia,3924053.0,2005,Import,True
+6424,North America,Aruba,1969603426.0,2005,Import,True
+6425,North America,Netherlands Antilles,1848294395.0,2005,Import,True
+6426,North America,Antigua and Barbuda,52.0,2005,Import,True
+6427,North America,Bahamas,865145729.0,2005,Import,True
+6428,North America,Bermuda,23363509.0,2005,Import,True
+6429,North America,Barbados,963343.0,2005,Import,True
+6430,North America,Canada,13460424602.0,2005,Import,True
+6431,North America,Costa Rica,194747849.0,2005,Import,True
+6432,North America,Cuba,762611032.0,2005,Import,True
+6433,North America,Dominican Republic,484836761.0,2005,Import,True
+6434,North America,Greenland,2896.0,2005,Import,True
+6435,North America,Guatemala,20834199.0,2005,Import,True
+6436,North America,Honduras,13930.0,2005,Import,True
+6437,North America,Jamaica,315068597.0,2005,Import,True
+6438,North America,Saint Lucia,134020295.0,2005,Import,True
+6439,North America,Mexico,5083.0,2005,Import,True
+6440,North America,Montserrat,148.0,2005,Import,True
+6441,North America,Nicaragua,307590159.0,2005,Import,True
+6442,North America,Panama,701834487.0,2005,Import,True
+6443,North America,El Salvador,289463059.0,2005,Import,True
+6444,North America,Trinidad and Tobago,1473738576.0,2005,Import,True
+6445,North America,United States,167888000000.0,2005,Import,True
+6446,North America,Saint Vincent and the Grenadines,29468093.0,2005,Import,True
+6447,North America,British Virgin Islands,1838746373.0,2005,Import,True
+6448,Oceania,Australia,7777609472.0,2005,Import,True
+6449,Oceania,Cook Islands,1013.0,2005,Import,True
+6450,Oceania,Fiji,2613.0,2005,Import,True
+6451,Oceania,Micronesia,298774.0,2005,Import,True
+6452,Oceania,New Caledonia,835.0,2005,Import,True
+6453,Oceania,New Zealand,1464927476.0,2005,Import,True
+6454,Oceania,Papua New Guinea,361051568.0,2005,Import,True
+6455,Oceania,French Polynesia,460.0,2005,Import,True
+6456,Oceania,Tonga,1146.0,2005,Import,True
+6457,Oceania,Wallis and Futuna,106165.0,2005,Import,True
+6458,Oceania,Samoa,1696.0,2005,Import,True
+6459,South America,Argentina,85290187.0,2005,Import,True
+6460,South America,Bolivia,1787.0,2005,Import,True
+6461,South America,Brazil,7963279237.0,2005,Import,True
+6462,South America,Chile,3973877001.0,2005,Import,True
+6463,South America,Colombia,110842619.0,2005,Import,True
+6464,South America,Ecuador,3128.0,2005,Import,True
+6465,South America,Guyana,31190.0,2005,Import,True
+6466,South America,Peru,1621174070.0,2005,Import,True
+6467,South America,Paraguay,12991432.0,2005,Import,True
+6468,South America,Uruguay,639604849.0,2005,Import,True
+6469,South America,Venezuela,21631.0,2005,Import,True
+6470,Africa,Angola,314720.0,2004,Import,True
+6471,Africa,Burundi,1967.0,2004,Import,True
+6472,Africa,Burkina Faso,20118.0,2004,Import,True
+6473,Africa,Botswana,586579.0,2004,Import,True
+6474,Africa,Cote d'Ivoire,936448553.0,2004,Import,True
+6475,Africa,Cameroon,301468812.0,2004,Import,True
+6476,Africa,Democratic Republic of the Congo,117366.0,2004,Import,True
+6477,Africa,Djibouti,461608.0,2004,Import,True
+6478,Africa,Algeria,9461.0,2004,Import,True
+6479,Africa,Egypt,259865249.0,2004,Import,True
+6480,Africa,Ethiopia,768.0,2004,Import,True
+6481,Africa,Gabon,263.0,2004,Import,True
+6482,Africa,Guinea,1736335.0,2004,Import,True
+6483,Africa,Gambia,3902764.0,2004,Import,True
+6484,Africa,Guinea-Bissau,1772075.0,2004,Import,True
+6485,Africa,Kenya,57296.0,2004,Import,True
+6486,Africa,Liberia,542592.0,2004,Import,True
+6487,Africa,Lesotho,11015205.0,2004,Import,True
+6488,Africa,Morocco,1133744422.0,2004,Import,True
+6489,Africa,Madagascar,13772.0,2004,Import,True
+6490,Africa,Mali,10200056.0,2004,Import,True
+6491,Africa,Mozambique,2985.0,2004,Import,True
+6492,Africa,Mauritania,52982.0,2004,Import,True
+6493,Africa,Mauritius,24151.0,2004,Import,True
+6494,Africa,Malawi,2681.0,2004,Import,True
+6495,Africa,Namibia,1617289.0,2004,Import,True
+6496,Africa,Nigeria,188695.0,2004,Import,True
+6497,Africa,Rwanda,3154.0,2004,Import,True
+6498,Africa,Sudan,335.0,2004,Import,True
+6499,Africa,Senegal,297253205.0,2004,Import,True
+6500,Africa,Sierra Leone,650805.0,2004,Import,True
+6501,Africa,Sao Tome and Principe,5000.0,2004,Import,True
+6502,Africa,Eswatini,732091.0,2004,Import,True
+6503,Africa,Seychelles,6834.0,2004,Import,True
+6504,Africa,Togo,1878854.0,2004,Import,True
+6505,Africa,Tunisia,288248435.0,2004,Import,True
+6506,Africa,Tanzania,1423.0,2004,Import,True
+6507,Africa,Uganda,6827.0,2004,Import,True
+6508,Africa,South Africa,5976278296.0,2004,Import,True
+6509,Africa,Zambia,113659787.0,2004,Import,True
+6510,Africa,Zimbabwe,128505.0,2004,Import,True
+6511,Asia,Afghanistan,47.0,2004,Import,True
+6512,Asia,United Arab Emirates,99223035.0,2004,Import,True
+6513,Asia,Bangladesh,185619032.0,2004,Import,True
+6514,Asia,Bahrain,5257.0,2004,Import,True
+6515,Asia,Brunei,23891116.0,2004,Import,True
+6516,Asia,China,29495489767.0,2004,Import,True
+6517,Asia,Cyprus,3334215994.0,2004,Import,True
+6518,Asia,Hong Kong,3992008.0,2004,Import,True
+6519,Asia,Indonesia,5356004475.0,2004,Import,True
+6520,Asia,India,2708401095.0,2004,Import,True
+6521,Asia,Iran,843106739.0,2004,Import,True
+6522,Asia,Israel,1035792862.0,2004,Import,True
+6523,Asia,Jordan,993784252.0,2004,Import,True
+6524,Asia,Japan,50936479939.0,2004,Import,True
+6525,Asia,Kazakhstan,526630175.0,2004,Import,True
+6526,Asia,Kyrgyzstan,1441374.0,2004,Import,True
+6527,Asia,South Korea,26186047205.0,2004,Import,True
+6528,Asia,Kuwait,39727828.0,2004,Import,True
+6529,Asia,Lebanon,290398.0,2004,Import,True
+6530,Asia,Sri Lanka,593811955.0,2004,Import,True
+6531,Asia,Mongolia,929582.0,2004,Import,True
+6532,Asia,Malaysia,1880044389.0,2004,Import,True
+6533,Asia,Nepal,1091726.0,2004,Import,True
+6534,Asia,Oman,2252761.0,2004,Import,True
+6535,Asia,Pakistan,1608469823.0,2004,Import,True
+6536,Asia,Philippines,2366938165.0,2004,Import,True
+6537,Asia,North Korea,246721403.0,2004,Import,True
+6538,Asia,Singapore,11274181368.0,2004,Import,True
+6539,Asia,Thailand,10383261919.0,2004,Import,True
+6540,Asia,Tajikistan,47725311.0,2004,Import,True
+6541,Asia,Timor-Leste,2164.0,2004,Import,True
+6542,Asia,Turkey,2226773679.0,2004,Import,True
+6543,Asia,Uzbekistan,49307894.0,2004,Import,True
+6544,Asia,Vietnam,18928919.0,2004,Import,True
+6545,Asia,Chinese Taipei,60458018030.0,2004,Import,True
+6546,Asia,Yemen,243007.0,2004,Import,True
+6547,Europe,Albania,7029.0,2004,Import,True
+6548,Europe,Andorra,175.0,2004,Import,True
+6549,Europe,Austria,1886142360.0,2004,Import,True
+6550,Europe,Belgium,3465017453.0,2004,Import,True
+6551,Europe,Bulgaria,633315100.0,2004,Import,True
+6552,Europe,Bosnia and Herzegovina,35347627.0,2004,Import,True
+6553,Europe,Belarus,2961292235.0,2004,Import,True
+6554,Europe,Switzerland,4315667347.0,2004,Import,True
+6555,Europe,Czechia,1535133518.0,2004,Import,True
+6556,Europe,Germany,20968187478.0,2004,Import,True
+6557,Europe,Denmark,1062584754.0,2004,Import,True
+6558,Europe,Spain,13727006212.0,2004,Import,True
+6559,Europe,Estonia,10608952.0,2004,Import,True
+6560,Europe,Finland,2773152994.0,2004,Import,True
+6561,Europe,France,21260302996.0,2004,Import,True
+6562,Europe,United Kingdom,15857712647.0,2004,Import,True
+6563,Europe,Gibraltar,499364297.0,2004,Import,True
+6564,Europe,Greece,3531566003.0,2004,Import,True
+6565,Europe,Croatia,868629390.0,2004,Import,True
+6566,Europe,Hungary,1264107019.0,2004,Import,True
+6567,Europe,Ireland,938296977.0,2004,Import,True
+6568,Europe,Iceland,143378836.0,2004,Import,True
+6569,Europe,Italy,26781534283.0,2004,Import,True
+6570,Europe,Lithuania,1995621821.0,2004,Import,True
+6571,Europe,Luxembourg,85924.0,2004,Import,True
+6572,Europe,Latvia,333813180.0,2004,Import,True
+6573,Europe,Moldova,23.0,2004,Import,True
+6574,Europe,North Macedonia,210740938.0,2004,Import,True
+6575,Europe,Malta,1385009.0,2004,Import,True
+6576,Europe,Netherlands,25492250468.0,2004,Import,True
+6577,Europe,Norway,237035499.0,2004,Import,True
+6578,Europe,Poland,4181438845.0,2004,Import,True
+6579,Europe,Portugal,3239090787.0,2004,Import,True
+6580,Europe,Romania,1145923309.0,2004,Import,True
+6581,Europe,Russia,541324042.0,2004,Import,True
+6582,Europe,Slovakia,1367779313.0,2004,Import,True
+6583,Europe,Slovenia,1376.0,2004,Import,True
+6584,Europe,Sweden,5001049242.0,2004,Import,True
+6585,Europe,Ukraine,4203549585.0,2004,Import,True
+6586,Europe,Yugoslavia,231557384.0,2004,Import,True
+6587,North America,Aruba,1508859047.0,2004,Import,True
+6588,North America,Anguilla,843.0,2004,Import,True
+6589,North America,Netherlands Antilles,1087094757.0,2004,Import,True
+6590,North America,Bahamas,445728358.0,2004,Import,True
+6591,North America,Canada,10005430450.0,2004,Import,True
+6592,North America,Costa Rica,128456021.0,2004,Import,True
+6593,North America,Cuba,483431108.0,2004,Import,True
+6594,North America,Dominica,10.0,2004,Import,True
+6595,North America,Dominican Republic,361034809.0,2004,Import,True
+6596,North America,Grenada,133.0,2004,Import,True
+6597,North America,Greenland,4517.0,2004,Import,True
+6598,North America,Guatemala,17963288.0,2004,Import,True
+6599,North America,Honduras,10748.0,2004,Import,True
+6600,North America,Jamaica,232940077.0,2004,Import,True
+6601,North America,Saint Kitts and Nevis,489.0,2004,Import,True
+6602,North America,Saint Lucia,11334187.0,2004,Import,True
+6603,North America,Mexico,19824.0,2004,Import,True
+6604,North America,Nicaragua,228434125.0,2004,Import,True
+6605,North America,Panama,1043328236.0,2004,Import,True
+6606,North America,El Salvador,194741265.0,2004,Import,True
+6607,North America,Trinidad and Tobago,737661981.0,2004,Import,True
+6608,North America,United States,128482000000.0,2004,Import,True
+6609,North America,British Virgin Islands,1603208254.0,2004,Import,True
+6610,Oceania,Australia,5992066638.0,2004,Import,True
+6611,Oceania,Cook Islands,16986.0,2004,Import,True
+6612,Oceania,Fiji,1847.0,2004,Import,True
+6613,Oceania,Micronesia,482736.0,2004,Import,True
+6614,Oceania,Kiribati,84.0,2004,Import,True
+6615,Oceania,New Caledonia,5719.0,2004,Import,True
+6616,Oceania,New Zealand,1117715963.0,2004,Import,True
+6617,Oceania,Papua New Guinea,63651474.0,2004,Import,True
+6618,Oceania,Tonga,26.0,2004,Import,True
+6619,Oceania,Wallis and Futuna,54134.0,2004,Import,True
+6620,South America,Argentina,71601714.0,2004,Import,True
+6621,South America,Bolivia,1637.0,2004,Import,True
+6622,South America,Brazil,6630174187.0,2004,Import,True
+6623,South America,Chile,2694306649.0,2004,Import,True
+6624,South America,Colombia,46069421.0,2004,Import,True
+6625,South America,Ecuador,398.0,2004,Import,True
+6626,South America,Guyana,1075.0,2004,Import,True
+6627,South America,Peru,863346251.0,2004,Import,True
+6628,South America,Paraguay,13479266.0,2004,Import,True
+6629,South America,Suriname,1244.0,2004,Import,True
+6630,South America,Uruguay,404264575.0,2004,Import,True
+6631,South America,Venezuela,24025250.0,2004,Import,True
+6632,Africa,Angola,2956401.0,2003,Import,True
+6633,Africa,Botswana,776148.0,2003,Import,True
+6634,Africa,Cote d'Ivoire,530796384.0,2003,Import,True
+6635,Africa,Cameroon,169626510.0,2003,Import,True
+6636,Africa,Democratic Republic of the Congo,159804.0,2003,Import,True
+6637,Africa,Republic of the Congo,17241.0,2003,Import,True
+6638,Africa,Algeria,3347.0,2003,Import,True
+6639,Africa,Egypt,2202.0,2003,Import,True
+6640,Africa,Eritrea,477.0,2003,Import,True
+6641,Africa,Ethiopia,58191.0,2003,Import,True
+6642,Africa,Gabon,765.0,2003,Import,True
+6643,Africa,Ghana,560531177.0,2003,Import,True
+6644,Africa,Guinea,2195688.0,2003,Import,True
+6645,Africa,Gambia,1952320.0,2003,Import,True
+6646,Africa,Guinea-Bissau,1657760.0,2003,Import,True
+6647,Africa,Equatorial Guinea,1643.0,2003,Import,True
+6648,Africa,Kenya,281072368.0,2003,Import,True
+6649,Africa,Liberia,1444750.0,2003,Import,True
+6650,Africa,Libya,2.0,2003,Import,True
+6651,Africa,Lesotho,6637164.0,2003,Import,True
+6652,Africa,Morocco,536374350.0,2003,Import,True
+6653,Africa,Madagascar,73727490.0,2003,Import,True
+6654,Africa,Mali,13327012.0,2003,Import,True
+6655,Africa,Mozambique,16097.0,2003,Import,True
+6656,Africa,Mauritania,8742.0,2003,Import,True
+6657,Africa,Mauritius,231566.0,2003,Import,True
+6658,Africa,Malawi,2248.0,2003,Import,True
+6659,Africa,Mayotte,2354.0,2003,Import,True
+6660,Africa,Namibia,13163.0,2003,Import,True
+6661,Africa,Nigeria,3538625.0,2003,Import,True
+6662,Africa,Senegal,275213172.0,2003,Import,True
+6663,Africa,Somalia,12.0,2003,Import,True
+6664,Africa,Eswatini,1031750.0,2003,Import,True
+6665,Africa,Seychelles,3105.0,2003,Import,True
+6666,Africa,Togo,132.0,2003,Import,True
+6667,Africa,Tunisia,231541514.0,2003,Import,True
+6668,Africa,Tanzania,19294.0,2003,Import,True
+6669,Africa,Uganda,1784.0,2003,Import,True
+6670,Africa,South Africa,3623810596.0,2003,Import,True
+6671,Africa,Zambia,35496246.0,2003,Import,True
+6672,Africa,Zimbabwe,75556.0,2003,Import,True
+6673,Asia,United Arab Emirates,333165078.0,2003,Import,True
+6674,Asia,Armenia,278282.0,2003,Import,True
+6675,Asia,Azerbaijan,1237.0,2003,Import,True
+6676,Asia,Bangladesh,209437622.0,2003,Import,True
+6677,Asia,Bahrain,1302.0,2003,Import,True
+6678,Asia,Brunei,21106094.0,2003,Import,True
+6679,Asia,China,17880442081.0,2003,Import,True
+6680,Asia,Cyprus,2694588475.0,2003,Import,True
+6681,Asia,Georgia,17348726.0,2003,Import,True
+6682,Asia,Hong Kong,77881.0,2003,Import,True
+6683,Asia,Indonesia,3768715261.0,2003,Import,True
+6684,Asia,India,4204556658.0,2003,Import,True
+6685,Asia,Iran,300613037.0,2003,Import,True
+6686,Asia,Iraq,1442.0,2003,Import,True
+6687,Asia,Israel,730544791.0,2003,Import,True
+6688,Asia,Jordan,603973434.0,2003,Import,True
+6689,Asia,Japan,41189235375.0,2003,Import,True
+6690,Asia,Kazakhstan,310020099.0,2003,Import,True
+6691,Asia,Kyrgyzstan,226155.0,2003,Import,True
+6692,Asia,South Korea,20496956313.0,2003,Import,True
+6693,Asia,Lebanon,222047.0,2003,Import,True
+6694,Asia,Sri Lanka,360103340.0,2003,Import,True
+6695,Asia,Mongolia,2952392.0,2003,Import,True
+6696,Asia,Malaysia,1429817021.0,2003,Import,True
+6697,Asia,Nepal,15505.0,2003,Import,True
+6698,Asia,Oman,27058.0,2003,Import,True
+6699,Asia,Pakistan,1292755077.0,2003,Import,True
+6700,Asia,Philippines,2352538929.0,2003,Import,True
+6701,Asia,North Korea,121004375.0,2003,Import,True
+6702,Asia,Singapore,7852703285.0,2003,Import,True
+6703,Asia,Thailand,6840226518.0,2003,Import,True
+6704,Asia,Tajikistan,46088817.0,2003,Import,True
+6705,Asia,Turkey,2152259340.0,2003,Import,True
+6706,Asia,Uzbekistan,35229100.0,2003,Import,True
+6707,Asia,Vietnam,2861063.0,2003,Import,True
+6708,Asia,Chinese Taipei,41119607178.0,2003,Import,True
+6709,Europe,Albania,4838.0,2003,Import,True
+6710,Europe,Andorra,388.0,2003,Import,True
+6711,Europe,Austria,1515361296.0,2003,Import,True
+6712,Europe,Belgium,3259823568.0,2003,Import,True
+6713,Europe,Bulgaria,116080059.0,2003,Import,True
+6714,Europe,Bosnia and Herzegovina,23873866.0,2003,Import,True
+6715,Europe,Belarus,1808164928.0,2003,Import,True
+6716,Europe,Switzerland,2684069377.0,2003,Import,True
+6717,Europe,Czechia,1120006498.0,2003,Import,True
+6718,Europe,Germany,16072502388.0,2003,Import,True
+6719,Europe,Denmark,814855181.0,2003,Import,True
+6720,Europe,Spain,11048272397.0,2003,Import,True
+6721,Europe,Estonia,219654464.0,2003,Import,True
+6722,Europe,Finland,2019814168.0,2003,Import,True
+6723,Europe,France,17090711880.0,2003,Import,True
+6724,Europe,United Kingdom,12020162049.0,2003,Import,True
+6725,Europe,Gibraltar,125120432.0,2003,Import,True
+6726,Europe,Greece,2689401745.0,2003,Import,True
+6727,Europe,Croatia,670895264.0,2003,Import,True
+6728,Europe,Hungary,994877327.0,2003,Import,True
+6729,Europe,Ireland,695118537.0,2003,Import,True
+6730,Europe,Iceland,18059980.0,2003,Import,True
+6731,Europe,Italy,19551031153.0,2003,Import,True
+6732,Europe,Lithuania,1311151959.0,2003,Import,True
+6733,Europe,Luxembourg,17074.0,2003,Import,True
+6734,Europe,Latvia,375522457.0,2003,Import,True
+6735,Europe,Moldova,125898.0,2003,Import,True
+6736,Europe,North Macedonia,170116128.0,2003,Import,True
+6737,Europe,Malta,66074133.0,2003,Import,True
+6738,Europe,Netherlands,19191456961.0,2003,Import,True
+6739,Europe,Norway,140255596.0,2003,Import,True
+6740,Europe,Poland,3350281027.0,2003,Import,True
+6741,Europe,Portugal,2365716082.0,2003,Import,True
+6742,Europe,Romania,1061169135.0,2003,Import,True
+6743,Europe,Russia,499236216.0,2003,Import,True
+6744,Europe,Slovakia,1040188645.0,2003,Import,True
+6745,Europe,Slovenia,510.0,2003,Import,True
+6746,Europe,Sweden,3978313958.0,2003,Import,True
+6747,Europe,Ukraine,2834732708.0,2003,Import,True
+6748,Europe,Yugoslavia,15298731.0,2003,Import,True
+6749,North America,Aruba,464658884.0,2003,Import,True
+6750,North America,Anguilla,1490.0,2003,Import,True
+6751,North America,Netherlands Antilles,4594317458.0,2003,Import,True
+6752,North America,Bahamas,527338322.0,2003,Import,True
+6753,North America,Belize,864.0,2003,Import,True
+6754,North America,Bermuda,2191864600.0,2003,Import,True
+6755,North America,Canada,8031290877.0,2003,Import,True
+6756,North America,Costa Rica,152204609.0,2003,Import,True
+6757,North America,Cuba,674167840.0,2003,Import,True
+6758,North America,Dominican Republic,433643936.0,2003,Import,True
+6759,North America,Greenland,1769.0,2003,Import,True
+6760,North America,Guatemala,35968325.0,2003,Import,True
+6761,North America,Honduras,25876125.0,2003,Import,True
+6762,North America,Jamaica,197510359.0,2003,Import,True
+6763,North America,Saint Kitts and Nevis,79.0,2003,Import,True
+6764,North America,Mexico,37134634.0,2003,Import,True
+6765,North America,Nicaragua,176782510.0,2003,Import,True
+6766,North America,Panama,270632598.0,2003,Import,True
+6767,North America,El Salvador,206567611.0,2003,Import,True
+6768,North America,Turks and Caicos Islands,54991.0,2003,Import,True
+6769,North America,Trinidad and Tobago,900775515.0,2003,Import,True
+6770,North America,United States,96841368259.0,2003,Import,True
+6771,North America,British Virgin Islands,2147619102.0,2003,Import,True
+6772,Oceania,Australia,4424684492.0,2003,Import,True
+6773,Oceania,Fiji,4433.0,2003,Import,True
+6774,Oceania,Micronesia,323368.0,2003,Import,True
+6775,Oceania,Marshall Islands,20215054.0,2003,Import,True
+6776,Oceania,New Caledonia,28777838.0,2003,Import,True
+6777,Oceania,Norfolk Island,6968119.0,2003,Import,True
+6778,Oceania,New Zealand,913025896.0,2003,Import,True
+6779,Oceania,French Polynesia,83.0,2003,Import,True
+6780,Oceania,Tonga,449.0,2003,Import,True
+6781,Oceania,Wallis and Futuna,44173.0,2003,Import,True
+6782,Oceania,Samoa,22.0,2003,Import,True
+6783,South America,Argentina,54293896.0,2003,Import,True
+6784,South America,Bolivia,2360.0,2003,Import,True
+6785,South America,Brazil,3722617452.0,2003,Import,True
+6786,South America,Chile,1933495106.0,2003,Import,True
+6787,South America,Colombia,60375914.0,2003,Import,True
+6788,South America,Ecuador,22271790.0,2003,Import,True
+6789,South America,Guyana,3672462.0,2003,Import,True
+6790,South America,Peru,838728909.0,2003,Import,True
+6791,South America,Paraguay,24420000.0,2003,Import,True
+6792,South America,Uruguay,257012131.0,2003,Import,True
+6793,South America,Venezuela,37461.0,2003,Import,True
+6794,Africa,Angola,2874881.0,2002,Import,True
+6795,Africa,Burundi,10.0,2002,Import,True
+6796,Africa,Benin,24651697.0,2002,Import,True
+6797,Africa,Burkina Faso,78.0,2002,Import,True
+6798,Africa,Botswana,448983.0,2002,Import,True
+6799,Africa,Cote d'Ivoire,410246794.0,2002,Import,True
+6800,Africa,Cameroon,208276053.0,2002,Import,True
+6801,Africa,Democratic Republic of the Congo,142426.0,2002,Import,True
+6802,Africa,Republic of the Congo,11906.0,2002,Import,True
+6803,Africa,Comoros,1038.0,2002,Import,True
+6804,Africa,Cape Verde,20389.0,2002,Import,True
+6805,Africa,Djibouti,2068.0,2002,Import,True
+6806,Africa,Algeria,51649.0,2002,Import,True
+6807,Africa,Egypt,253582052.0,2002,Import,True
+6808,Africa,Ethiopia,4968.0,2002,Import,True
+6809,Africa,Gabon,5817.0,2002,Import,True
+6810,Africa,Ghana,135751387.0,2002,Import,True
+6811,Africa,Guinea,1107936.0,2002,Import,True
+6812,Africa,Gambia,2373730.0,2002,Import,True
+6813,Africa,Guinea-Bissau,2755327.0,2002,Import,True
+6814,Africa,Equatorial Guinea,967.0,2002,Import,True
+6815,Africa,Kenya,282386297.0,2002,Import,True
+6816,Africa,Libya,27.0,2002,Import,True
+6817,Africa,Lesotho,9534706.0,2002,Import,True
+6818,Africa,Morocco,1020375759.0,2002,Import,True
+6819,Africa,Madagascar,68719421.0,2002,Import,True
+6820,Africa,Mali,8903406.0,2002,Import,True
+6821,Africa,Mozambique,5040.0,2002,Import,True
+6822,Africa,Mauritania,2585.0,2002,Import,True
+6823,Africa,Mauritius,2466652.0,2002,Import,True
+6824,Africa,Malawi,63092.0,2002,Import,True
+6825,Africa,Namibia,24052.0,2002,Import,True
+6826,Africa,Nigeria,24998302.0,2002,Import,True
+6827,Africa,Rwanda,83137.0,2002,Import,True
+6828,Africa,Sudan,479315.0,2002,Import,True
+6829,Africa,Senegal,179994493.0,2002,Import,True
+6830,Africa,Saint Helena,5957.0,2002,Import,True
+6831,Africa,Sierra Leone,847658.0,2002,Import,True
+6832,Africa,Eswatini,933966.0,2002,Import,True
+6833,Africa,Togo,1584.0,2002,Import,True
+6834,Africa,Tunisia,187080660.0,2002,Import,True
+6835,Africa,Tanzania,279.0,2002,Import,True
+6836,Africa,Uganda,9322.0,2002,Import,True
+6837,Africa,South Africa,2772423190.0,2002,Import,True
+6838,Africa,Zambia,296419.0,2002,Import,True
+6839,Africa,Zimbabwe,225221.0,2002,Import,True
+6840,Asia,United Arab Emirates,780615058.0,2002,Import,True
+6841,Asia,Bangladesh,85775722.0,2002,Import,True
+6842,Asia,Bahrain,54886.0,2002,Import,True
+6843,Asia,Brunei,20349179.0,2002,Import,True
+6844,Asia,China,11411012783.0,2002,Import,True
+6845,Asia,Cyprus,736055543.0,2002,Import,True
+6846,Asia,Georgia,6005381.0,2002,Import,True
+6847,Asia,Hong Kong,8064292.0,2002,Import,True
+6848,Asia,Indonesia,2952371113.0,2002,Import,True
+6849,Asia,India,3851420788.0,2002,Import,True
+6850,Asia,Iran,58922093.0,2002,Import,True
+6851,Asia,Israel,462427872.0,2002,Import,True
+6852,Asia,Jordan,522681251.0,2002,Import,True
+6853,Asia,Japan,31825887092.0,2002,Import,True
+6854,Asia,Kazakhstan,247813807.0,2002,Import,True
+6855,Asia,Kyrgyzstan,882470.0,2002,Import,True
+6856,Asia,Cambodia,334.0,2002,Import,True
+6857,Asia,South Korea,17144839768.0,2002,Import,True
+6858,Asia,Kuwait,15171174.0,2002,Import,True
+6859,Asia,Lebanon,17603083.0,2002,Import,True
+6860,Asia,Sri Lanka,335559045.0,2002,Import,True
+6861,Asia,Burma,112115945.0,2002,Import,True
+6862,Asia,Mongolia,2113918.0,2002,Import,True
+6863,Asia,Malaysia,1155493268.0,2002,Import,True
+6864,Asia,Nepal,26385.0,2002,Import,True
+6865,Asia,Oman,1422702.0,2002,Import,True
+6866,Asia,Philippines,2006242751.0,2002,Import,True
+6867,Asia,North Korea,118096839.0,2002,Import,True
+6868,Asia,Saudi Arabia,21294.0,2002,Import,True
+6869,Asia,Singapore,7272143268.0,2002,Import,True
+6870,Asia,Syria,5526.0,2002,Import,True
+6871,Asia,Thailand,5522072533.0,2002,Import,True
+6872,Asia,Timor-Leste,4488.0,2002,Import,True
+6873,Asia,Turkey,2073780751.0,2002,Import,True
+6874,Asia,Uzbekistan,8350.0,2002,Import,True
+6875,Asia,Vietnam,20525381.0,2002,Import,True
+6876,Asia,Chinese Taipei,32498246766.0,2002,Import,True
+6877,Europe,Albania,527.0,2002,Import,True
+6878,Europe,Andorra,4052.0,2002,Import,True
+6879,Europe,Austria,1073620848.0,2002,Import,True
+6880,Europe,Belgium,6238683408.0,2002,Import,True
+6881,Europe,Bulgaria,153155819.0,2002,Import,True
+6882,Europe,Bosnia and Herzegovina,11663995.0,2002,Import,True
+6883,Europe,Belarus,1370698496.0,2002,Import,True
+6884,Europe,Switzerland,1989474813.0,2002,Import,True
+6885,Europe,Czechia,1955887681.0,2002,Import,True
+6886,Europe,Germany,14702619801.0,2002,Import,True
+6887,Europe,Denmark,824720251.0,2002,Import,True
+6888,Europe,Spain,9458410446.0,2002,Import,True
+6889,Europe,Estonia,474766468.0,2002,Import,True
+6890,Europe,Finland,1747871979.0,2002,Import,True
+6891,Europe,France,13985469081.0,2002,Import,True
+6892,Europe,United Kingdom,9658240382.0,2002,Import,True
+6893,Europe,Gibraltar,19258046.0,2002,Import,True
+6894,Europe,Greece,2010915600.0,2002,Import,True
+6895,Europe,Croatia,568980835.0,2002,Import,True
+6896,Europe,Hungary,805404388.0,2002,Import,True
+6897,Europe,Ireland,560597507.0,2002,Import,True
+6898,Europe,Iceland,47432707.0,2002,Import,True
+6899,Europe,Italy,16504237405.0,2002,Import,True
+6900,Europe,Lithuania,1000217931.0,2002,Import,True
+6901,Europe,Luxembourg,24684701.0,2002,Import,True
+6902,Europe,Latvia,26942095.0,2002,Import,True
+6903,Europe,Moldova,12296.0,2002,Import,True
+6904,Europe,North Macedonia,84142175.0,2002,Import,True
+6905,Europe,Malta,25330940.0,2002,Import,True
+6906,Europe,Netherlands,14999367278.0,2002,Import,True
+6907,Europe,Norway,83396884.0,2002,Import,True
+6908,Europe,Poland,2945501467.0,2002,Import,True
+6909,Europe,Portugal,1873873955.0,2002,Import,True
+6910,Europe,Romania,947449134.0,2002,Import,True
+6911,Europe,Russia,437565163.0,2002,Import,True
+6912,Europe,Slovakia,895307708.0,2002,Import,True
+6913,Europe,Slovenia,636.0,2002,Import,True
+6914,Europe,Sweden,3177481182.0,2002,Import,True
+6915,Europe,Ukraine,2145510210.0,2002,Import,True
+6916,Europe,Yugoslavia,88603023.0,2002,Import,True
+6917,North America,Aruba,3861000.0,2002,Import,True
+6918,North America,Anguilla,973.0,2002,Import,True
+6919,North America,Netherlands Antilles,2084424424.0,2002,Import,True
+6920,North America,Antigua and Barbuda,6543908.0,2002,Import,True
+6921,North America,Bahamas,437972251.0,2002,Import,True
+6922,North America,Belize,834000.0,2002,Import,True
+6923,North America,Bermuda,2020893584.0,2002,Import,True
+6924,North America,Barbados,10493154.0,2002,Import,True
+6925,North America,Canada,6218517508.0,2002,Import,True
+6926,North America,Costa Rica,199363169.0,2002,Import,True
+6927,North America,Cuba,232352156.0,2002,Import,True
+6928,North America,Dominica,213000.0,2002,Import,True
+6929,North America,Dominican Republic,765009935.0,2002,Import,True
+6930,North America,Grenada,22000.0,2002,Import,True
+6931,North America,Greenland,501.0,2002,Import,True
+6932,North America,Guatemala,238769872.0,2002,Import,True
+6933,North America,Honduras,52094777.0,2002,Import,True
+6934,North America,Haiti,9984000.0,2002,Import,True
+6935,North America,Jamaica,208170553.0,2002,Import,True
+6936,North America,Saint Kitts and Nevis,45.0,2002,Import,True
+6937,North America,Saint Lucia,242184175.0,2002,Import,True
+6938,North America,Mexico,99085174.0,2002,Import,True
+6939,North America,Nicaragua,141826986.0,2002,Import,True
+6940,North America,Panama,330611704.0,2002,Import,True
+6941,North America,El Salvador,139742428.0,2002,Import,True
+6942,North America,Trinidad and Tobago,829643035.0,2002,Import,True
+6943,North America,United States,76679865597.0,2002,Import,True
+6944,North America,British Virgin Islands,1862976315.0,2002,Import,True
+6945,Oceania,Australia,3649000172.0,2002,Import,True
+6946,Oceania,Fiji,4017.0,2002,Import,True
+6947,Oceania,New Caledonia,25731507.0,2002,Import,True
+6948,Oceania,New Zealand,809158456.0,2002,Import,True
+6949,Oceania,Papua New Guinea,47.0,2002,Import,True
+6950,Oceania,Tonga,24.0,2002,Import,True
+6951,Oceania,Wallis and Futuna,3455.0,2002,Import,True
+6952,Oceania,Samoa,41.0,2002,Import,True
+6953,South America,Argentina,35816117.0,2002,Import,True
+6954,South America,Bolivia,674.0,2002,Import,True
+6955,South America,Brazil,3426890954.0,2002,Import,True
+6956,South America,Chile,1520562966.0,2002,Import,True
+6957,South America,Colombia,55689007.0,2002,Import,True
+6958,South America,Ecuador,110518673.0,2002,Import,True
+6959,South America,Guyana,1372.0,2002,Import,True
+6960,South America,Peru,585536204.0,2002,Import,True
+6961,South America,Paraguay,22202197.0,2002,Import,True
+6962,South America,Uruguay,164929485.0,2002,Import,True
+6963,South America,Venezuela,5140079.0,2002,Import,True
+6964,Africa,Angola,21434.0,2001,Import,True
+6965,Africa,Botswana,241001.0,2001,Import,True
+6966,Africa,Cote d'Ivoire,508507523.0,2001,Import,True
+6967,Africa,Cameroon,284820292.0,2001,Import,True
+6968,Africa,Democratic Republic of the Congo,27468.0,2001,Import,True
+6969,Africa,Republic of the Congo,2948.0,2001,Import,True
+6970,Africa,Cape Verde,11.0,2001,Import,True
+6971,Africa,Algeria,14895832.0,2001,Import,True
+6972,Africa,Egypt,47558971.0,2001,Import,True
+6973,Africa,Ethiopia,17.0,2001,Import,True
+6974,Africa,Gabon,1028332.0,2001,Import,True
+6975,Africa,Ghana,289012135.0,2001,Import,True
+6976,Africa,Guinea,1056723.0,2001,Import,True
+6977,Africa,Gambia,1381015.0,2001,Import,True
+6978,Africa,Guinea-Bissau,754437.0,2001,Import,True
+6979,Africa,Equatorial Guinea,384.0,2001,Import,True
+6980,Africa,Kenya,385607390.0,2001,Import,True
+6981,Africa,Liberia,9965099.0,2001,Import,True
+6982,Africa,Lesotho,3075061.0,2001,Import,True
+6983,Africa,Morocco,16810749856.0,2001,Import,True
+6984,Africa,Madagascar,69229005.0,2001,Import,True
+6985,Africa,Mali,4042428.0,2001,Import,True
+6986,Africa,Mozambique,16200.0,2001,Import,True
+6987,Africa,Mauritania,14686.0,2001,Import,True
+6988,Africa,Mauritius,3624.0,2001,Import,True
+6989,Africa,Malawi,20828.0,2001,Import,True
+6990,Africa,Namibia,44229.0,2001,Import,True
+6991,Africa,Niger,11135411.0,2001,Import,True
+6992,Africa,Nigeria,478037.0,2001,Import,True
+6993,Africa,Senegal,151817918.0,2001,Import,True
+6994,Africa,Saint Helena,6199.0,2001,Import,True
+6995,Africa,Sierra Leone,47482.0,2001,Import,True
+6996,Africa,Sao Tome and Principe,132.0,2001,Import,True
+6997,Africa,Eswatini,1416124.0,2001,Import,True
+6998,Africa,Tunisia,188563980.0,2001,Import,True
+6999,Africa,Tanzania,173929.0,2001,Import,True
+7000,Africa,Uganda,684.0,2001,Import,True
+7001,Africa,South Africa,3165071943.0,2001,Import,True
+7002,Africa,Zambia,91717.0,2001,Import,True
+7003,Africa,Zimbabwe,154432.0,2001,Import,True
+7004,Asia,United Arab Emirates,433709062.0,2001,Import,True
+7005,Asia,Armenia,75757.0,2001,Import,True
+7006,Asia,Azerbaijan,10255.0,2001,Import,True
+7007,Asia,Bangladesh,53886483.0,2001,Import,True
+7008,Asia,Brunei,27251821.0,2001,Import,True
+7009,Asia,China,10272670540.0,2001,Import,True
+7010,Asia,Cyprus,519703281.0,2001,Import,True
+7011,Asia,Georgia,23378426.0,2001,Import,True
+7012,Asia,Hong Kong,49423874.0,2001,Import,True
+7013,Asia,Indonesia,2507994660.0,2001,Import,True
+7014,Asia,India,3367661993.0,2001,Import,True
+7015,Asia,Iran,200.0,2001,Import,True
+7016,Asia,Israel,499391053.0,2001,Import,True
+7017,Asia,Jordan,498609964.0,2001,Import,True
+7018,Asia,Japan,34813845237.0,2001,Import,True
+7019,Asia,Kazakhstan,240544871.0,2001,Import,True
+7020,Asia,Cambodia,13339.0,2001,Import,True
+7021,Asia,South Korea,19016262794.0,2001,Import,True
+7022,Asia,Laos,280399.0,2001,Import,True
+7023,Asia,Lebanon,532065.0,2001,Import,True
+7024,Asia,Sri Lanka,328086644.0,2001,Import,True
+7025,Asia,Burma,122793268.0,2001,Import,True
+7026,Asia,Mongolia,844573.0,2001,Import,True
+7027,Asia,Malaysia,1393099753.0,2001,Import,True
+7028,Asia,Oman,3316644.0,2001,Import,True
+7029,Asia,Philippines,2505974404.0,2001,Import,True
+7030,Asia,North Korea,153110578.0,2001,Import,True
+7031,Asia,Saudi Arabia,16065249.0,2001,Import,True
+7032,Asia,Singapore,7414071734.0,2001,Import,True
+7033,Asia,Syria,19158.0,2001,Import,True
+7034,Asia,Thailand,5482872521.0,2001,Import,True
+7035,Asia,Turkey,3240712359.0,2001,Import,True
+7036,Asia,Vietnam,13485195.0,2001,Import,True
+7037,Asia,Chinese Taipei,15805850713.0,2001,Import,True
+7038,Europe,Albania,4036.0,2001,Import,True
+7039,Europe,Andorra,5358.0,2001,Import,True
+7040,Europe,Austria,1168797927.0,2001,Import,True
+7041,Europe,Belgium,3154259704.0,2001,Import,True
+7042,Europe,Bulgaria,11602246.0,2001,Import,True
+7043,Europe,Bosnia and Herzegovina,20622070.0,2001,Import,True
+7044,Europe,Belarus,1257315343.0,2001,Import,True
+7045,Europe,Switzerland,1694150435.0,2001,Import,True
+7046,Europe,Czechia,897896599.0,2001,Import,True
+7047,Europe,Germany,15706799824.0,2001,Import,True
+7048,Europe,Denmark,625139986.0,2001,Import,True
+7049,Europe,Spain,9234516929.0,2001,Import,True
+7050,Europe,Estonia,235084993.0,2001,Import,True
+7051,Europe,Finland,1919966618.0,2001,Import,True
+7052,Europe,France,14710726322.0,2001,Import,True
+7053,Europe,United Kingdom,9565216347.0,2001,Import,True
+7054,Europe,Gibraltar,135688088.0,2001,Import,True
+7055,Europe,Greece,3097007676.0,2001,Import,True
+7056,Europe,Croatia,571919087.0,2001,Import,True
+7057,Europe,Hungary,953538125.0,2001,Import,True
+7058,Europe,Ireland,629067849.0,2001,Import,True
+7059,Europe,Iceland,140597180.0,2001,Import,True
+7060,Europe,Italy,17073657131.0,2001,Import,True
+7061,Europe,Lithuania,1005555745.0,2001,Import,True
+7062,Europe,Luxembourg,55689.0,2001,Import,True
+7063,Europe,Latvia,78970649.0,2001,Import,True
+7064,Europe,Moldova,35023.0,2001,Import,True
+7065,Europe,North Macedonia,152285061.0,2001,Import,True
+7066,Europe,Malta,459341.0,2001,Import,True
+7067,Europe,Netherlands,14262742523.0,2001,Import,True
+7068,Europe,Norway,124240109.0,2001,Import,True
+7069,Europe,Poland,3154937901.0,2001,Import,True
+7070,Europe,Portugal,2072429630.0,2001,Import,True
+7071,Europe,Romania,768504536.0,2001,Import,True
+7072,Europe,Russia,512892623.0,2001,Import,True
+7073,Europe,San Marino,8268804.0,2001,Import,True
+7074,Europe,Slovakia,872135649.0,2001,Import,True
+7075,Europe,Slovenia,9497.0,2001,Import,True
+7076,Europe,Sweden,3270607222.0,2001,Import,True
+7077,Europe,Ukraine,1872811944.0,2001,Import,True
+7078,Europe,Yugoslavia,90483059.0,2001,Import,True
+7079,North America,Aruba,20148888.0,2001,Import,True
+7080,North America,Netherlands Antilles,2213320907.0,2001,Import,True
+7081,North America,Bahamas,84176261.0,2001,Import,True
+7082,North America,Bermuda,1338538879.0,2001,Import,True
+7083,North America,Canada,6179667225.0,2001,Import,True
+7084,North America,Costa Rica,51616674.0,2001,Import,True
+7085,North America,Cuba,284685072.0,2001,Import,True
+7086,North America,Dominican Republic,279215241.0,2001,Import,True
+7087,North America,Grenada,60.0,2001,Import,True
+7088,North America,Guatemala,244368597.0,2001,Import,True
+7089,North America,Honduras,10527.0,2001,Import,True
+7090,North America,Jamaica,157377545.0,2001,Import,True
+7091,North America,Saint Kitts and Nevis,104792.0,2001,Import,True
+7092,North America,Saint Lucia,225134890.0,2001,Import,True
+7093,North America,Mexico,691970.0,2001,Import,True
+7094,North America,Nicaragua,172412706.0,2001,Import,True
+7095,North America,Panama,429290118.0,2001,Import,True
+7096,North America,El Salvador,154082585.0,2001,Import,True
+7097,North America,Trinidad and Tobago,732694418.0,2001,Import,True
+7098,North America,United States,72310420986.0,2001,Import,True
+7099,North America,Saint Vincent and the Grenadines,33.0,2001,Import,True
+7100,North America,British Virgin Islands,2765264110.0,2001,Import,True
+7101,Oceania,Australia,3848339181.0,2001,Import,True
+7102,Oceania,New Zealand,732313586.0,2001,Import,True
+7103,Oceania,Papua New Guinea,71.0,2001,Import,True
+7104,Oceania,Wallis and Futuna,652.0,2001,Import,True
+7105,South America,Argentina,270496014.0,2001,Import,True
+7106,South America,Brazil,3674094882.0,2001,Import,True
+7107,South America,Chile,1621335498.0,2001,Import,True
+7108,South America,Colombia,47362080.0,2001,Import,True
+7109,South America,Ecuador,1122.0,2001,Import,True
+7110,South America,Guyana,2019.0,2001,Import,True
+7111,South America,Peru,526862186.0,2001,Import,True
+7112,South America,Paraguay,19117818.0,2001,Import,True
+7113,South America,Uruguay,281695543.0,2001,Import,True
+7114,South America,Venezuela,189959466.0,2001,Import,True
+7115,Africa,Angola,57032.0,2000,Import,True
+7116,Africa,Burundi,3436.0,2000,Import,True
+7117,Africa,Burkina Faso,487.0,2000,Import,True
+7118,Africa,Botswana,71346.0,2000,Import,True
+7119,Africa,Central African Republic,161.0,2000,Import,True
+7120,Africa,Cote d'Ivoire,620853267.0,2000,Import,True
+7121,Africa,Cameroon,301445419.0,2000,Import,True
+7122,Africa,Democratic Republic of the Congo,3718.0,2000,Import,True
+7123,Africa,Algeria,534.0,2000,Import,True
+7124,Africa,Ethiopia,778.0,2000,Import,True
+7125,Africa,Gabon,1826.0,2000,Import,True
+7126,Africa,Ghana,306276008.0,2000,Import,True
+7127,Africa,Guinea,12627119.0,2000,Import,True
+7128,Africa,Gambia,1651042.0,2000,Import,True
+7129,Africa,Guinea-Bissau,794971.0,2000,Import,True
+7130,Africa,Equatorial Guinea,5664228.0,2000,Import,True
+7131,Africa,Kenya,301735929.0,2000,Import,True
+7132,Africa,Liberia,27581664.0,2000,Import,True
+7133,Africa,Libya,16393.0,2000,Import,True
+7134,Africa,Lesotho,41859984.0,2000,Import,True
+7135,Africa,Morocco,19537070291.0,2000,Import,True
+7136,Africa,Madagascar,106790577.0,2000,Import,True
+7137,Africa,Mali,4938260.0,2000,Import,True
+7138,Africa,Mozambique,14409200.0,2000,Import,True
+7139,Africa,Mauritius,9104.0,2000,Import,True
+7140,Africa,Malawi,19220.0,2000,Import,True
+7141,Africa,Namibia,208215.0,2000,Import,True
+7142,Africa,Nigeria,12539598.0,2000,Import,True
+7143,Africa,Rwanda,8686.0,2000,Import,True
+7144,Africa,Senegal,287763223.0,2000,Import,True
+7145,Africa,Saint Helena,1086.0,2000,Import,True
+7146,Africa,Sierra Leone,766754.0,2000,Import,True
+7147,Africa,Eswatini,1360515.0,2000,Import,True
+7148,Africa,Seychelles,541.0,2000,Import,True
+7149,Africa,Togo,427724.0,2000,Import,True
+7150,Africa,Tunisia,218075885.0,2000,Import,True
+7151,Africa,Tanzania,51152.0,2000,Import,True
+7152,Africa,Uganda,1703.0,2000,Import,True
+7153,Africa,South Africa,3512429552.0,2000,Import,True
+7154,Africa,Zambia,5646286.0,2000,Import,True
+7155,Africa,Zimbabwe,19752.0,2000,Import,True
+7156,Asia,United Arab Emirates,28383724.0,2000,Import,True
+7157,Asia,Armenia,1025099.0,2000,Import,True
+7158,Asia,Azerbaijan,32760360.0,2000,Import,True
+7159,Asia,Bangladesh,95519212.0,2000,Import,True
+7160,Asia,Brunei,45690671.0,2000,Import,True
+7161,Asia,China,13211294721.0,2000,Import,True
+7162,Asia,Cyprus,702538240.0,2000,Import,True
+7163,Asia,Georgia,19511016.0,2000,Import,True
+7164,Asia,Hong Kong,26355842.0,2000,Import,True
+7165,Asia,Indonesia,2283424004.0,2000,Import,True
+7166,Asia,India,4651479278.0,2000,Import,True
+7167,Asia,Iran,41114907.0,2000,Import,True
+7168,Asia,Israel,612327398.0,2000,Import,True
+7169,Asia,Jordan,481728434.0,2000,Import,True
+7170,Asia,Japan,38383591676.0,2000,Import,True
+7171,Asia,Kazakhstan,87736602.0,2000,Import,True
+7172,Asia,Kyrgyzstan,4681064.0,2000,Import,True
+7173,Asia,Cambodia,150715.0,2000,Import,True
+7174,Asia,South Korea,22206301890.0,2000,Import,True
+7175,Asia,Laos,234854.0,2000,Import,True
+7176,Asia,Lebanon,46184320.0,2000,Import,True
+7177,Asia,Sri Lanka,376628692.0,2000,Import,True
+7178,Asia,Burma,143092579.0,2000,Import,True
+7179,Asia,Malaysia,1174378002.0,2000,Import,True
+7180,Asia,Oman,1100.0,2000,Import,True
+7181,Asia,Philippines,2722616836.0,2000,Import,True
+7182,Asia,North Korea,189390111.0,2000,Import,True
+7183,Asia,Saudi Arabia,109.0,2000,Import,True
+7184,Asia,Singapore,8335611555.0,2000,Import,True
+7185,Asia,Syria,23889.0,2000,Import,True
+7186,Asia,Thailand,5857315132.0,2000,Import,True
+7187,Asia,Turkey,2661635514.0,2000,Import,True
+7188,Asia,Uzbekistan,3000.0,2000,Import,True
+7189,Asia,Vietnam,43251228.0,2000,Import,True
+7190,Asia,Chinese Taipei,18442604424.0,2000,Import,True
+7191,Europe,Albania,8620.0,2000,Import,True
+7192,Europe,Andorra,1167.0,2000,Import,True
+7193,Europe,Austria,1160555977.0,2000,Import,True
+7194,Europe,Belgium,3402782284.0,2000,Import,True
+7195,Europe,Bulgaria,54752496.0,2000,Import,True
+7196,Europe,Bosnia and Herzegovina,29169552.0,2000,Import,True
+7197,Europe,Belarus,1482225104.0,2000,Import,True
+7198,Europe,Switzerland,2349672498.0,2000,Import,True
+7199,Europe,Czechia,839069795.0,2000,Import,True
+7200,Europe,Germany,15823365900.0,2000,Import,True
+7201,Europe,Denmark,852347346.0,2000,Import,True
+7202,Europe,Spain,10770143432.0,2000,Import,True
+7203,Europe,Estonia,200865522.0,2000,Import,True
+7204,Europe,Finland,1684853201.0,2000,Import,True
+7205,Europe,France,15556872759.0,2000,Import,True
+7206,Europe,United Kingdom,10312522414.0,2000,Import,True
+7207,Europe,Gibraltar,368097618.0,2000,Import,True
+7208,Europe,Greece,2686621435.0,2000,Import,True
+7209,Europe,Croatia,472000009.0,2000,Import,True
+7210,Europe,Hungary,1074667086.0,2000,Import,True
+7211,Europe,Ireland,652030156.0,2000,Import,True
+7212,Europe,Iceland,33924747.0,2000,Import,True
+7213,Europe,Italy,18191803368.0,2000,Import,True
+7214,Europe,Lithuania,977529621.0,2000,Import,True
+7215,Europe,Luxembourg,14956.0,2000,Import,True
+7216,Europe,Latvia,25129562.0,2000,Import,True
+7217,Europe,Moldova,2578650.0,2000,Import,True
+7218,Europe,North Macedonia,216799787.0,2000,Import,True
+7219,Europe,Malta,74629410.0,2000,Import,True
+7220,Europe,Netherlands,14994800534.0,2000,Import,True
+7221,Europe,Norway,219454334.0,2000,Import,True
+7222,Europe,Poland,3501241484.0,2000,Import,True
+7223,Europe,Portugal,2225461142.0,2000,Import,True
+7224,Europe,Romania,668380169.0,2000,Import,True
+7225,Europe,Russia,628947031.0,2000,Import,True
+7226,Europe,Slovakia,960306593.0,2000,Import,True
+7227,Europe,Slovenia,19615898.0,2000,Import,True
+7228,Europe,Sweden,3993244494.0,2000,Import,True
+7229,Europe,Ukraine,864342384.0,2000,Import,True
+7230,Europe,Yugoslavia,41819750.0,2000,Import,True
+7231,North America,Aruba,295070000.0,2000,Import,True
+7232,North America,Anguilla,525.0,2000,Import,True
+7233,North America,Netherlands Antilles,2417815285.0,2000,Import,True
+7234,North America,Antigua and Barbuda,8770.0,2000,Import,True
+7235,North America,Bahamas,160243621.0,2000,Import,True
+7236,North America,Bermuda,1298255731.0,2000,Import,True
+7237,North America,Canada,7157134268.0,2000,Import,True
+7238,North America,Costa Rica,8080384.0,2000,Import,True
+7239,North America,Cuba,265458166.0,2000,Import,True
+7240,North America,Dominican Republic,412483308.0,2000,Import,True
+7241,North America,Grenada,122.0,2000,Import,True
+7242,North America,Guatemala,150585407.0,2000,Import,True
+7243,North America,Honduras,69945.0,2000,Import,True
+7244,North America,Jamaica,186438376.0,2000,Import,True
+7245,North America,Saint Kitts and Nevis,21.0,2000,Import,True
+7246,North America,Saint Lucia,63290656.0,2000,Import,True
+7247,North America,Mexico,7843698.0,2000,Import,True
+7248,North America,Nicaragua,183645469.0,2000,Import,True
+7249,North America,Panama,483918202.0,2000,Import,True
+7250,North America,El Salvador,211698284.0,2000,Import,True
+7251,North America,Trinidad and Tobago,906434354.0,2000,Import,True
+7252,North America,United States,87458377041.0,2000,Import,True
+7253,North America,Saint Vincent and the Grenadines,581.0,2000,Import,True
+7254,North America,British Virgin Islands,3709818946.0,2000,Import,True
+7255,Oceania,Australia,4123259750.0,2000,Import,True
+7256,Oceania,Nauru,26752728.0,2000,Import,True
+7257,Oceania,New Zealand,878396006.0,2000,Import,True
+7258,Oceania,Papua New Guinea,2721.0,2000,Import,True
+7259,Oceania,Solomon Islands,1255000.0,2000,Import,True
+7260,Oceania,Tonga,44.0,2000,Import,True
+7261,Oceania,Wallis and Futuna,2054.0,2000,Import,True
+7262,South America,Argentina,317177726.0,2000,Import,True
+7263,South America,Bolivia,111.0,2000,Import,True
+7264,South America,Brazil,3967110358.0,2000,Import,True
+7265,South America,Chile,1826641123.0,2000,Import,True
+7266,South America,Colombia,42094608.0,2000,Import,True
+7267,South America,Ecuador,18047.0,2000,Import,True
+7268,South America,Guyana,83.0,2000,Import,True
+7269,South America,Peru,562333755.0,2000,Import,True
+7270,South America,Paraguay,23251138.0,2000,Import,True
+7271,South America,Suriname,17888854.0,2000,Import,True
+7272,South America,Uruguay,348471893.0,2000,Import,True
+7273,South America,Venezuela,181958932.0,2000,Import,True
+7274,Africa,Angola,15560.0,1999,Import,True
+7275,Africa,Burundi,565.0,1999,Import,True
+7276,Africa,Burkina Faso,707.0,1999,Import,True
+7277,Africa,Cote d'Ivoire,348473718.0,1999,Import,True
+7278,Africa,Cameroon,164950250.0,1999,Import,True
+7279,Africa,Democratic Republic of the Congo,3145.0,1999,Import,True
+7280,Africa,Republic of the Congo,9084811.0,1999,Import,True
+7281,Africa,Comoros,6419.0,1999,Import,True
+7282,Africa,Algeria,47722171.0,1999,Import,True
+7283,Africa,Egypt,4629.0,1999,Import,True
+7284,Africa,Ethiopia,62332.0,1999,Import,True
+7285,Africa,Gabon,9092.0,1999,Import,True
+7286,Africa,Ghana,239633155.0,1999,Import,True
+7287,Africa,Guinea,93455.0,1999,Import,True
+7288,Africa,Gambia,89263.0,1999,Import,True
+7289,Africa,Guinea-Bissau,75887.0,1999,Import,True
+7290,Africa,Kenya,136801199.0,1999,Import,True
+7291,Africa,Liberia,24624066.0,1999,Import,True
+7292,Africa,Morocco,783056115.0,1999,Import,True
+7293,Africa,Madagascar,59675827.0,1999,Import,True
+7294,Africa,Mali,621786.0,1999,Import,True
+7295,Africa,Mozambique,1197.0,1999,Import,True
+7296,Africa,Mauritania,11646464.0,1999,Import,True
+7297,Africa,Mauritius,15943.0,1999,Import,True
+7298,Africa,Malawi,27099.0,1999,Import,True
+7299,Africa,Sudan,300765.0,1999,Import,True
+7300,Africa,Senegal,103565233.0,1999,Import,True
+7301,Africa,Sierra Leone,1280.0,1999,Import,True
+7302,Africa,Chad,1849.0,1999,Import,True
+7303,Africa,Tunisia,117293996.0,1999,Import,True
+7304,Africa,Tanzania,79847763.0,1999,Import,True
+7305,Africa,Uganda,2740.0,1999,Import,True
+7306,Africa,South Africa,2091769276.0,1999,Import,True
+7307,Africa,Zambia,33711735.0,1999,Import,True
+7308,Africa,Zimbabwe,50274.0,1999,Import,True
+7309,Asia,United Arab Emirates,310877391.0,1999,Import,True
+7310,Asia,Armenia,3677105.0,1999,Import,True
+7311,Asia,Azerbaijan,33134905.0,1999,Import,True
+7312,Asia,Bangladesh,1484064.0,1999,Import,True
+7313,Asia,Bahrain,10889.0,1999,Import,True
+7314,Asia,Brunei,16863130.0,1999,Import,True
+7315,Asia,China,4070039333.0,1999,Import,True
+7316,Asia,Cyprus,133028913.0,1999,Import,True
+7317,Asia,Georgia,22414505.0,1999,Import,True
+7318,Asia,Hong Kong,7012850.0,1999,Import,True
+7319,Asia,Indonesia,1449530094.0,1999,Import,True
+7320,Asia,India,7860932441.0,1999,Import,True
+7321,Asia,Iran,14383465.0,1999,Import,True
+7322,Asia,Iraq,971445.0,1999,Import,True
+7323,Asia,Israel,241834091.0,1999,Import,True
+7324,Asia,Jordan,277556817.0,1999,Import,True
+7325,Asia,Japan,23798483696.0,1999,Import,True
+7326,Asia,Kazakhstan,28913734.0,1999,Import,True
+7327,Asia,Kyrgyzstan,3357494.0,1999,Import,True
+7328,Asia,South Korea,12856810366.0,1999,Import,True
+7329,Asia,Kuwait,15979.0,1999,Import,True
+7330,Asia,Laos,4531860.0,1999,Import,True
+7331,Asia,Lebanon,16758730.0,1999,Import,True
+7332,Asia,Sri Lanka,128671547.0,1999,Import,True
+7333,Asia,Burma,97376479.0,1999,Import,True
+7334,Asia,Malaysia,323271051.0,1999,Import,True
+7335,Asia,Nepal,957.0,1999,Import,True
+7336,Asia,Oman,19677.0,1999,Import,True
+7337,Asia,Pakistan,30240.0,1999,Import,True
+7338,Asia,Philippines,1824057159.0,1999,Import,True
+7339,Asia,North Korea,56056306.0,1999,Import,True
+7340,Asia,Saudi Arabia,57895.0,1999,Import,True
+7341,Asia,Singapore,5038647890.0,1999,Import,True
+7342,Asia,Syria,14006.0,1999,Import,True
+7343,Asia,Thailand,3666470298.0,1999,Import,True
+7344,Asia,Tajikistan,93677.0,1999,Import,True
+7345,Asia,Turkmenistan,325287.0,1999,Import,True
+7346,Asia,Turkey,1744987916.0,1999,Import,True
+7347,Asia,Uzbekistan,460497.0,1999,Import,True
+7348,Asia,Vietnam,17888996.0,1999,Import,True
+7349,Asia,Chinese Taipei,7780960715.0,1999,Import,True
+7350,Asia,Yemen,14923.0,1999,Import,True
+7351,Europe,Albania,20776482.0,1999,Import,True
+7352,Europe,Austria,734423691.0,1999,Import,True
+7353,Europe,Belgium,1868956486.0,1999,Import,True
+7354,Europe,Bulgaria,205115290.0,1999,Import,True
+7355,Europe,Bosnia and Herzegovina,12623.0,1999,Import,True
+7356,Europe,Belarus,611020329.0,1999,Import,True
+7357,Europe,Switzerland,1687516699.0,1999,Import,True
+7358,Europe,Czechia,631187210.0,1999,Import,True
+7359,Europe,Germany,11520408328.0,1999,Import,True
+7360,Europe,Denmark,544480725.0,1999,Import,True
+7361,Europe,Spain,6245076203.0,1999,Import,True
+7362,Europe,Estonia,85157404.0,1999,Import,True
+7363,Europe,Finland,1432375036.0,1999,Import,True
+7364,Europe,France,9552497652.0,1999,Import,True
+7365,Europe,United Kingdom,5437790150.0,1999,Import,True
+7366,Europe,Gibraltar,407159680.0,1999,Import,True
+7367,Europe,Greece,872741986.0,1999,Import,True
+7368,Europe,Croatia,230213896.0,1999,Import,True
+7369,Europe,Hungary,650700169.0,1999,Import,True
+7370,Europe,Ireland,489308626.0,1999,Import,True
+7371,Europe,Italy,10316845409.0,1999,Import,True
+7372,Europe,Lithuania,463387655.0,1999,Import,True
+7373,Europe,Luxembourg,32778.0,1999,Import,True
+7374,Europe,Latvia,7689560.0,1999,Import,True
+7375,Europe,Moldova,81000.0,1999,Import,True
+7376,Europe,North Macedonia,123998972.0,1999,Import,True
+7377,Europe,Malta,1814667.0,1999,Import,True
+7378,Europe,Netherlands,9205133402.0,1999,Import,True
+7379,Europe,Norway,216371110.0,1999,Import,True
+7380,Europe,Poland,1906173739.0,1999,Import,True
+7381,Europe,Portugal,1472005317.0,1999,Import,True
+7382,Europe,Romania,273427291.0,1999,Import,True
+7383,Europe,Russia,256199062.0,1999,Import,True
+7384,Europe,Slovakia,601945819.0,1999,Import,True
+7385,Europe,Slovenia,16867172.0,1999,Import,True
+7386,Europe,Sweden,2076605117.0,1999,Import,True
+7387,Europe,Ukraine,698509601.0,1999,Import,True
+7388,Europe,Yugoslavia,31281857.0,1999,Import,True
+7389,North America,Aruba,30568576.0,1999,Import,True
+7390,North America,Netherlands Antilles,1685986331.0,1999,Import,True
+7391,North America,Antigua and Barbuda,6740258.0,1999,Import,True
+7392,North America,Bahamas,93232976.0,1999,Import,True
+7393,North America,Bermuda,280106362.0,1999,Import,True
+7394,North America,Canada,4032188302.0,1999,Import,True
+7395,North America,Costa Rica,2778.0,1999,Import,True
+7396,North America,Cuba,126768063.0,1999,Import,True
+7397,North America,Dominican Republic,257574896.0,1999,Import,True
+7398,North America,Guatemala,89333229.0,1999,Import,True
+7399,North America,Jamaica,61325883.0,1999,Import,True
+7400,North America,Saint Kitts and Nevis,461.0,1999,Import,True
+7401,North America,Mexico,19039172.0,1999,Import,True
+7402,North America,Nicaragua,94895827.0,1999,Import,True
+7403,North America,Panama,261474303.0,1999,Import,True
+7404,North America,El Salvador,105423495.0,1999,Import,True
+7405,North America,Turks and Caicos Islands,12352.0,1999,Import,True
+7406,North America,Trinidad and Tobago,425340991.0,1999,Import,True
+7407,North America,United States,51380247053.0,1999,Import,True
+7408,North America,British Virgin Islands,1421330485.0,1999,Import,True
+7409,Oceania,Australia,2699016355.0,1999,Import,True
+7410,Oceania,Kiribati,4878.0,1999,Import,True
+7411,Oceania,Nauru,8045990.0,1999,Import,True
+7412,Oceania,New Zealand,492819274.0,1999,Import,True
+7413,South America,Argentina,138907399.0,1999,Import,True
+7414,South America,Brazil,2617118272.0,1999,Import,True
+7415,South America,Chile,1027075744.0,1999,Import,True
+7416,South America,Colombia,23696350.0,1999,Import,True
+7417,South America,Ecuador,3799.0,1999,Import,True
+7418,South America,Peru,330847515.0,1999,Import,True
+7419,South America,Paraguay,12197409.0,1999,Import,True
+7420,South America,Suriname,12455.0,1999,Import,True
+7421,South America,Uruguay,172741341.0,1999,Import,True
+7422,South America,Venezuela,77075504.0,1999,Import,True
+7423,Africa,Burkina Faso,46277000.0,1998,Import,True
+7424,Africa,Cote d'Ivoire,280905287.0,1998,Import,True
+7425,Africa,Cameroon,148848521.0,1998,Import,True
+7426,Africa,Democratic Republic of the Congo,3249064.0,1998,Import,True
+7427,Africa,Cape Verde,12347.0,1998,Import,True
+7428,Africa,Algeria,879.0,1998,Import,True
+7429,Africa,Egypt,1868.0,1998,Import,True
+7430,Africa,Ethiopia,20283072.0,1998,Import,True
+7431,Africa,Ghana,159018977.0,1998,Import,True
+7432,Africa,Gambia,117877.0,1998,Import,True
+7433,Africa,Kenya,231186099.0,1998,Import,True
+7434,Africa,Morocco,486951647.0,1998,Import,True
+7435,Africa,Madagascar,43829657.0,1998,Import,True
+7436,Africa,Mali,2080.0,1998,Import,True
+7437,Africa,Mauritania,18437494.0,1998,Import,True
+7438,Africa,Mauritius,18513.0,1998,Import,True
+7439,Africa,Malawi,25473.0,1998,Import,True
+7440,Africa,Sudan,239074.0,1998,Import,True
+7441,Africa,Senegal,96118745.0,1998,Import,True
+7442,Africa,Seychelles,8374.0,1998,Import,True
+7443,Africa,Tunisia,76376236.0,1998,Import,True
+7444,Africa,Tanzania,68277973.0,1998,Import,True
+7445,Africa,Uganda,11585.0,1998,Import,True
+7446,Africa,South Africa,199790876.0,1998,Import,True
+7447,Africa,Zambia,77116586.0,1998,Import,True
+7448,Africa,Zimbabwe,56506.0,1998,Import,True
+7449,Asia,Afghanistan,144113.0,1998,Import,True
+7450,Asia,United Arab Emirates,213512116.0,1998,Import,True
+7451,Asia,Armenia,3339679.0,1998,Import,True
+7452,Asia,Azerbaijan,6547395.0,1998,Import,True
+7453,Asia,Bangladesh,76246825.0,1998,Import,True
+7454,Asia,Bahrain,6564.0,1998,Import,True
+7455,Asia,Brunei,12857662.0,1998,Import,True
+7456,Asia,China,2702552972.0,1998,Import,True
+7457,Asia,Cyprus,103355841.0,1998,Import,True
+7458,Asia,Georgia,12300838.0,1998,Import,True
+7459,Asia,Hong Kong,1188.0,1998,Import,True
+7460,Asia,Indonesia,974390773.0,1998,Import,True
+7461,Asia,India,3236865929.0,1998,Import,True
+7462,Asia,Iran,8890.0,1998,Import,True
+7463,Asia,Iraq,630104.0,1998,Import,True
+7464,Asia,Israel,165779914.0,1998,Import,True
+7465,Asia,Jordan,227463571.0,1998,Import,True
+7466,Asia,Japan,19205488011.0,1998,Import,True
+7467,Asia,Kazakhstan,150684745.0,1998,Import,True
+7468,Asia,Kyrgyzstan,68208.0,1998,Import,True
+7469,Asia,South Korea,9808758126.0,1998,Import,True
+7470,Asia,Kuwait,24511.0,1998,Import,True
+7471,Asia,Laos,109221.0,1998,Import,True
+7472,Asia,Sri Lanka,40514219.0,1998,Import,True
+7473,Asia,Burma,68964504.0,1998,Import,True
+7474,Asia,Malaysia,148974259.0,1998,Import,True
+7475,Asia,Oman,701.0,1998,Import,True
+7476,Asia,Pakistan,52617.0,1998,Import,True
+7477,Asia,Philippines,1452789191.0,1998,Import,True
+7478,Asia,North Korea,62832826.0,1998,Import,True
+7479,Asia,Saudi Arabia,2297520.0,1998,Import,True
+7480,Asia,Singapore,4725807405.0,1998,Import,True
+7481,Asia,Thailand,2790184824.0,1998,Import,True
+7482,Asia,Tajikistan,96544.0,1998,Import,True
+7483,Asia,Turkmenistan,122352.0,1998,Import,True
+7484,Asia,Turkey,1551988765.0,1998,Import,True
+7485,Asia,Uzbekistan,144654.0,1998,Import,True
+7486,Asia,Vietnam,183500.0,1998,Import,True
+7487,Asia,Chinese Taipei,3025387279.0,1998,Import,True
+7488,Europe,Albania,1721201.0,1998,Import,True
+7489,Europe,Austria,711762720.0,1998,Import,True
+7490,Europe,Bulgaria,448398776.0,1998,Import,True
+7491,Europe,Bosnia and Herzegovina,43523.0,1998,Import,True
+7492,Europe,Belarus,716033252.0,1998,Import,True
+7493,Europe,Belgium-Luxembourg,3049364304.0,1998,Import,True
+7494,Europe,Switzerland,1459415178.0,1998,Import,True
+7495,Europe,Czechia,502233540.0,1998,Import,True
+7496,Europe,Germany,9090675027.0,1998,Import,True
+7497,Europe,Denmark,382673215.0,1998,Import,True
+7498,Europe,Spain,4727689555.0,1998,Import,True
+7499,Europe,Estonia,42270204.0,1998,Import,True
+7500,Europe,Finland,811552565.0,1998,Import,True
+7501,Europe,France,7947812664.0,1998,Import,True
+7502,Europe,United Kingdom,4646050977.0,1998,Import,True
+7503,Europe,Gibraltar,385813208.0,1998,Import,True
+7504,Europe,Greece,1400318115.0,1998,Import,True
+7505,Europe,Croatia,299779655.0,1998,Import,True
+7506,Europe,Hungary,452661802.0,1998,Import,True
+7507,Europe,Ireland,566164535.0,1998,Import,True
+7508,Europe,Iceland,3520027.0,1998,Import,True
+7509,Europe,Italy,8124962617.0,1998,Import,True
+7510,Europe,Lithuania,447358482.0,1998,Import,True
+7511,Europe,Latvia,18249715.0,1998,Import,True
+7512,Europe,North Macedonia,158227892.0,1998,Import,True
+7513,Europe,Malta,1757.0,1998,Import,True
+7514,Europe,Netherlands,7089242572.0,1998,Import,True
+7515,Europe,Norway,152562459.0,1998,Import,True
+7516,Europe,Poland,1348456302.0,1998,Import,True
+7517,Europe,Portugal,1059425989.0,1998,Import,True
+7518,Europe,Romania,193783188.0,1998,Import,True
+7519,Europe,Russia,428790445.0,1998,Import,True
+7520,Europe,Slovakia,381619943.0,1998,Import,True
+7521,Europe,Slovenia,25856457.0,1998,Import,True
+7522,Europe,Sweden,1604005169.0,1998,Import,True
+7523,Europe,Ukraine,799990764.0,1998,Import,True
+7524,Europe,Yugoslavia,160712881.0,1998,Import,True
+7525,North America,Aruba,103366000.0,1998,Import,True
+7526,North America,Netherlands Antilles,1110783756.0,1998,Import,True
+7527,North America,Bahamas,41784158.0,1998,Import,True
+7528,North America,Bermuda,168881759.0,1998,Import,True
+7529,North America,Barbados,425259.0,1998,Import,True
+7530,North America,Canada,3795187419.0,1998,Import,True
+7531,North America,Costa Rica,4253202.0,1998,Import,True
+7532,North America,Cuba,116912589.0,1998,Import,True
+7533,North America,Dominican Republic,171905528.0,1998,Import,True
+7534,North America,Guatemala,79021288.0,1998,Import,True
+7535,North America,Honduras,5505.0,1998,Import,True
+7536,North America,Jamaica,54905412.0,1998,Import,True
+7537,North America,Mexico,95248.0,1998,Import,True
+7538,North America,Nicaragua,83906113.0,1998,Import,True
+7539,North America,Panama,183774558.0,1998,Import,True
+7540,North America,El Salvador,69051642.0,1998,Import,True
+7541,North America,Trinidad and Tobago,241434975.0,1998,Import,True
+7542,North America,United States,38077298854.0,1998,Import,True
+7543,North America,British Virgin Islands,825316932.0,1998,Import,True
+7544,Oceania,Australia,1885940546.0,1998,Import,True
+7545,Oceania,New Zealand,419471904.0,1998,Import,True
+7546,Oceania,Papua New Guinea,1218.0,1998,Import,True
+7547,South America,Argentina,108709323.0,1998,Import,True
+7548,South America,Brazil,2405438260.0,1998,Import,True
+7549,South America,Chile,856960947.0,1998,Import,True
+7550,South America,Colombia,3279550.0,1998,Import,True
+7551,South America,Ecuador,2898.0,1998,Import,True
+7552,South America,Peru,357089787.0,1998,Import,True
+7553,South America,Paraguay,48676292.0,1998,Import,True
+7554,South America,Uruguay,143441470.0,1998,Import,True
+7555,South America,Venezuela,48956961.0,1998,Import,True
+7556,Africa,Cote d'Ivoire,388602353.0,1997,Import,True
+7557,Africa,Cameroon,179155790.0,1997,Import,True
+7558,Africa,Democratic Republic of the Congo,428710.0,1997,Import,True
+7559,Africa,Republic of the Congo,52820.0,1997,Import,True
+7560,Africa,Comoros,875.0,1997,Import,True
+7561,Africa,Algeria,2938.0,1997,Import,True
+7562,Africa,Egypt,576.0,1997,Import,True
+7563,Africa,Ethiopia,9889954.0,1997,Import,True
+7564,Africa,Gabon,748.0,1997,Import,True
+7565,Africa,Ghana,161870133.0,1997,Import,True
+7566,Africa,Gambia,164834.0,1997,Import,True
+7567,Africa,Kenya,251320437.0,1997,Import,True
+7568,Africa,Liberia,1283735.0,1997,Import,True
+7569,Africa,Morocco,695314320.0,1997,Import,True
+7570,Africa,Madagascar,67509318.0,1997,Import,True
+7571,Africa,Mauritania,21300684.0,1997,Import,True
+7572,Africa,Malawi,16898.0,1997,Import,True
+7573,Africa,Niger,8837.0,1997,Import,True
+7574,Africa,Nigeria,1249.0,1997,Import,True
+7575,Africa,Rwanda,8837.0,1997,Import,True
+7576,Africa,Senegal,199964639.0,1997,Import,True
+7577,Africa,Tunisia,120826268.0,1997,Import,True
+7578,Africa,Tanzania,41871.0,1997,Import,True
+7579,Africa,Uganda,701152.0,1997,Import,True
+7580,Africa,South Africa,218346279.0,1997,Import,True
+7581,Africa,Zambia,94321897.0,1997,Import,True
+7582,Asia,Afghanistan,6159.0,1997,Import,True
+7583,Asia,United Arab Emirates,6589.0,1997,Import,True
+7584,Asia,Armenia,680463.0,1997,Import,True
+7585,Asia,Azerbaijan,17531973.0,1997,Import,True
+7586,Asia,Bangladesh,105151441.0,1997,Import,True
+7587,Asia,Brunei,11510119.0,1997,Import,True
+7588,Asia,China,4771720017.0,1997,Import,True
+7589,Asia,Cyprus,90441430.0,1997,Import,True
+7590,Asia,Georgia,19521148.0,1997,Import,True
+7591,Asia,Hong Kong,16103859.0,1997,Import,True
+7592,Asia,Indonesia,1304018243.0,1997,Import,True
+7593,Asia,India,3817873140.0,1997,Import,True
+7594,Asia,Iran,159975.0,1997,Import,True
+7595,Asia,Israel,333916526.0,1997,Import,True
+7596,Asia,Jordan,368248016.0,1997,Import,True
+7597,Asia,Japan,30607772168.0,1997,Import,True
+7598,Asia,Kazakhstan,145455904.0,1997,Import,True
+7599,Asia,South Korea,15583299683.0,1997,Import,True
+7600,Asia,Kuwait,20043.0,1997,Import,True
+7601,Asia,Laos,50985.0,1997,Import,True
+7602,Asia,Sri Lanka,68507772.0,1997,Import,True
+7603,Asia,Burma,91423840.0,1997,Import,True
+7604,Asia,Malaysia,149222376.0,1997,Import,True
+7605,Asia,Oman,10537.0,1997,Import,True
+7606,Asia,Philippines,2357308483.0,1997,Import,True
+7607,Asia,North Korea,64635373.0,1997,Import,True
+7608,Asia,Singapore,7563003419.0,1997,Import,True
+7609,Asia,Thailand,4441725275.0,1997,Import,True
+7610,Asia,Turkey,2477457817.0,1997,Import,True
+7611,Asia,Vietnam,641679.0,1997,Import,True
+7612,Asia,Chinese Taipei,4511726758.0,1997,Import,True
+7613,Europe,Albania,3214440.0,1997,Import,True
+7614,Europe,Austria,1014674550.0,1997,Import,True
+7615,Europe,Bulgaria,758423358.0,1997,Import,True
+7616,Europe,Bosnia and Herzegovina,6000.0,1997,Import,True
+7617,Europe,Belarus,1119691228.0,1997,Import,True
+7618,Europe,Belgium-Luxembourg,4285613254.0,1997,Import,True
+7619,Europe,Switzerland,1910522212.0,1997,Import,True
+7620,Europe,Czechia,788835992.0,1997,Import,True
+7621,Europe,Germany,10479191041.0,1997,Import,True
+7622,Europe,Denmark,531821433.0,1997,Import,True
+7623,Europe,Spain,6634570056.0,1997,Import,True
+7624,Europe,Estonia,3973811.0,1997,Import,True
+7625,Europe,Finland,1001681024.0,1997,Import,True
+7626,Europe,France,10764388517.0,1997,Import,True
+7627,Europe,United Kingdom,7046280709.0,1997,Import,True
+7628,Europe,Gibraltar,553741632.0,1997,Import,True
+7629,Europe,Greece,1412752108.0,1997,Import,True
+7630,Europe,Croatia,323306039.0,1997,Import,True
+7631,Europe,Hungary,629322778.0,1997,Import,True
+7632,Europe,Ireland,2133715219.0,1997,Import,True
+7633,Europe,Iceland,6841278.0,1997,Import,True
+7634,Europe,Italy,11074971734.0,1997,Import,True
+7635,Europe,Lithuania,496310819.0,1997,Import,True
+7636,Europe,Latvia,63840114.0,1997,Import,True
+7637,Europe,Moldova,1726454.0,1997,Import,True
+7638,Europe,North Macedonia,98231147.0,1997,Import,True
+7639,Europe,Netherlands,10862285015.0,1997,Import,True
+7640,Europe,Norway,247551176.0,1997,Import,True
+7641,Europe,Poland,1714741053.0,1997,Import,True
+7642,Europe,Portugal,1573083060.0,1997,Import,True
+7643,Europe,Romania,330716001.0,1997,Import,True
+7644,Europe,Russia,476143048.0,1997,Import,True
+7645,Europe,Slovakia,618282320.0,1997,Import,True
+7646,Europe,Slovenia,111746977.0,1997,Import,True
+7647,Europe,Sweden,2635997855.0,1997,Import,True
+7648,Europe,Ukraine,895766520.0,1997,Import,True
+7649,Europe,Yugoslavia,283977127.0,1997,Import,True
+7650,North America,Aruba,249378088.0,1997,Import,True
+7651,North America,Netherlands Antilles,1281302222.0,1997,Import,True
+7652,North America,Bahamas,112847534.0,1997,Import,True
+7653,North America,Bermuda,83249256.0,1997,Import,True
+7654,North America,Barbados,13688000.0,1997,Import,True
+7655,North America,Canada,5168815700.0,1997,Import,True
+7656,North America,Costa Rica,82869169.0,1997,Import,True
+7657,North America,Cuba,204281658.0,1997,Import,True
+7658,North America,Dominica,859.0,1997,Import,True
+7659,North America,Dominican Republic,259166704.0,1997,Import,True
+7660,North America,Guatemala,89346678.0,1997,Import,True
+7661,North America,Honduras,6973282.0,1997,Import,True
+7662,North America,Jamaica,74499974.0,1997,Import,True
+7663,North America,Mexico,253192.0,1997,Import,True
+7664,North America,Nicaragua,130267493.0,1997,Import,True
+7665,North America,Panama,291942165.0,1997,Import,True
+7666,North America,El Salvador,115157632.0,1997,Import,True
+7667,North America,Trinidad and Tobago,197597658.0,1997,Import,True
+7668,North America,United States,54290552159.0,1997,Import,True
+7669,North America,British Virgin Islands,681048068.0,1997,Import,True
+7670,Oceania,Australia,2460206302.0,1997,Import,True
+7671,Oceania,New Caledonia,13033.0,1997,Import,True
+7672,Oceania,New Zealand,492292560.0,1997,Import,True
+7673,South America,Argentina,164289539.0,1997,Import,True
+7674,South America,Bolivia,5837.0,1997,Import,True
+7675,South America,Brazil,3529735135.0,1997,Import,True
+7676,South America,Chile,1151733984.0,1997,Import,True
+7677,South America,Colombia,18899.0,1997,Import,True
+7678,South America,Ecuador,1071.0,1997,Import,True
+7679,South America,Guyana,858.0,1997,Import,True
+7680,South America,Peru,454935423.0,1997,Import,True
+7681,South America,Paraguay,42906727.0,1997,Import,True
+7682,South America,Uruguay,171363580.0,1997,Import,True
+7683,South America,Venezuela,48171868.0,1997,Import,True
+7684,Africa,Cote d'Ivoire,427614545.0,1996,Import,True
+7685,Africa,Cameroon,141749817.0,1996,Import,True
+7686,Africa,Democratic Republic of the Congo,137512.0,1996,Import,True
+7687,Africa,Cape Verde,1087934.0,1996,Import,True
+7688,Africa,Djibouti,3885.0,1996,Import,True
+7689,Africa,Algeria,8368665.0,1996,Import,True
+7690,Africa,Gabon,872.0,1996,Import,True
+7691,Africa,Ghana,170078938.0,1996,Import,True
+7692,Africa,Guinea,820.0,1996,Import,True
+7693,Africa,Gambia,531172.0,1996,Import,True
+7694,Africa,Equatorial Guinea,16143.0,1996,Import,True
+7695,Africa,Liberia,17128126.0,1996,Import,True
+7696,Africa,Morocco,759187671.0,1996,Import,True
+7697,Africa,Madagascar,79041946.0,1996,Import,True
+7698,Africa,Mauritania,20254186.0,1996,Import,True
+7699,Africa,Mauritius,1660.0,1996,Import,True
+7700,Africa,Nigeria,1220158.0,1996,Import,True
+7701,Africa,Senegal,204915646.0,1996,Import,True
+7702,Africa,Chad,454005.0,1996,Import,True
+7703,Africa,Tunisia,100896391.0,1996,Import,True
+7704,Africa,Tanzania,46986128.0,1996,Import,True
+7705,Africa,South Africa,2078660896.0,1996,Import,True
+7706,Africa,Zambia,57532911.0,1996,Import,True
+7707,Asia,Armenia,279048.0,1996,Import,True
+7708,Asia,Azerbaijan,62794.0,1996,Import,True
+7709,Asia,Bangladesh,58127821.0,1996,Import,True
+7710,Asia,Brunei,23259611.0,1996,Import,True
+7711,Asia,China,3089383435.0,1996,Import,True
+7712,Asia,Cyprus,60518488.0,1996,Import,True
+7713,Asia,Georgia,1870899.0,1996,Import,True
+7714,Asia,Hong Kong,15577860.0,1996,Import,True
+7715,Asia,Indonesia,1336865341.0,1996,Import,True
+7716,Asia,India,4629671234.0,1996,Import,True
+7717,Asia,Israel,411936968.0,1996,Import,True
+7718,Asia,Jordan,1109.0,1996,Import,True
+7719,Asia,Japan,29672869544.0,1996,Import,True
+7720,Asia,Kazakhstan,304361800.0,1996,Import,True
+7721,Asia,Kyrgyzstan,1086182.0,1996,Import,True
+7722,Asia,Cambodia,7717.0,1996,Import,True
+7723,Asia,South Korea,12575292777.0,1996,Import,True
+7724,Asia,Laos,2301.0,1996,Import,True
+7725,Asia,Sri Lanka,55471061.0,1996,Import,True
+7726,Asia,Burma,58912081.0,1996,Import,True
+7727,Asia,Malaysia,159394853.0,1996,Import,True
+7728,Asia,Philippines,2190689590.0,1996,Import,True
+7729,Asia,North Korea,118698199.0,1996,Import,True
+7730,Asia,Saudi Arabia,14541741.0,1996,Import,True
+7731,Asia,Singapore,7379013513.0,1996,Import,True
+7732,Asia,Thailand,3985397847.0,1996,Import,True
+7733,Asia,Turkmenistan,569.0,1996,Import,True
+7734,Asia,Turkey,3040147515.0,1996,Import,True
+7735,Asia,Vietnam,207750.0,1996,Import,True
+7736,Asia,Chinese Taipei,827020783.0,1996,Import,True
+7737,Europe,Albania,615501.0,1996,Import,True
+7738,Europe,Austria,960781629.0,1996,Import,True
+7739,Europe,Bulgaria,916074331.0,1996,Import,True
+7740,Europe,Bosnia and Herzegovina,36000.0,1996,Import,True
+7741,Europe,Belgium-Luxembourg,3065744413.0,1996,Import,True
+7742,Europe,Switzerland,2392228186.0,1996,Import,True
+7743,Europe,Czechia,911738671.0,1996,Import,True
+7744,Europe,Germany,13351362611.0,1996,Import,True
+7745,Europe,Denmark,626114768.0,1996,Import,True
+7746,Europe,Spain,6965902667.0,1996,Import,True
+7747,Europe,Estonia,126384.0,1996,Import,True
+7748,Europe,Finland,1324377371.0,1996,Import,True
+7749,Europe,France,10953841855.0,1996,Import,True
+7750,Europe,United Kingdom,8210783156.0,1996,Import,True
+7751,Europe,Gibraltar,91768800.0,1996,Import,True
+7752,Europe,Greece,1603492658.0,1996,Import,True
+7753,Europe,Croatia,545873411.0,1996,Import,True
+7754,Europe,Hungary,588140381.0,1996,Import,True
+7755,Europe,Ireland,2604329381.0,1996,Import,True
+7756,Europe,Italy,11639863461.0,1996,Import,True
+7757,Europe,Lithuania,232854266.0,1996,Import,True
+7758,Europe,Latvia,47909850.0,1996,Import,True
+7759,Europe,Moldova,21138.0,1996,Import,True
+7760,Europe,North Macedonia,122719178.0,1996,Import,True
+7761,Europe,Malta,2668952.0,1996,Import,True
+7762,Europe,Netherlands,10547321096.0,1996,Import,True
+7763,Europe,Norway,201266219.0,1996,Import,True
+7764,Europe,Poland,1781498140.0,1996,Import,True
+7765,Europe,Portugal,1586716621.0,1996,Import,True
+7766,Europe,Romania,560079021.0,1996,Import,True
+7767,Europe,Russia,525757509.0,1996,Import,True
+7768,Europe,Slovakia,697081943.0,1996,Import,True
+7769,Europe,Slovenia,90860467.0,1996,Import,True
+7770,Europe,Sweden,2691942777.0,1996,Import,True
+7771,Europe,Ukraine,818494457.0,1996,Import,True
+7772,Europe,Yugoslavia,228833673.0,1996,Import,True
+7773,North America,Aruba,262285140.0,1996,Import,True
+7774,North America,Anguilla,164939.0,1996,Import,True
+7775,North America,Netherlands Antilles,1753841777.0,1996,Import,True
+7776,North America,Bahamas,133363345.0,1996,Import,True
+7777,North America,Bermuda,212489028.0,1996,Import,True
+7778,North America,Barbados,18837542.0,1996,Import,True
+7779,North America,Canada,4810951046.0,1996,Import,True
+7780,North America,Costa Rica,104742268.0,1996,Import,True
+7781,North America,Cuba,436428628.0,1996,Import,True
+7782,North America,Dominica,451.0,1996,Import,True
+7783,North America,Dominican Republic,280859688.0,1996,Import,True
+7784,North America,Greenland,8314.0,1996,Import,True
+7785,North America,Guatemala,96634381.0,1996,Import,True
+7786,North America,Honduras,10490.0,1996,Import,True
+7787,North America,Jamaica,90798643.0,1996,Import,True
+7788,North America,Mexico,4385897.0,1996,Import,True
+7789,North America,Nicaragua,75126996.0,1996,Import,True
+7790,North America,Panama,297620905.0,1996,Import,True
+7791,North America,El Salvador,127558136.0,1996,Import,True
+7792,North America,Trinidad and Tobago,305714429.0,1996,Import,True
+7793,North America,United States,54496090827.0,1996,Import,True
+7794,North America,British Virgin Islands,1192573956.0,1996,Import,True
+7795,Oceania,Australia,2454821903.0,1996,Import,True
+7796,Oceania,New Zealand,494229216.0,1996,Import,True
+7797,South America,Argentina,118780229.0,1996,Import,True
+7798,South America,Bolivia,4207.0,1996,Import,True
+7799,South America,Brazil,3555163917.0,1996,Import,True
+7800,South America,Chile,1259846614.0,1996,Import,True
+7801,South America,Colombia,10930645.0,1996,Import,True
+7802,South America,Ecuador,1027.0,1996,Import,True
+7803,South America,Peru,338639739.0,1996,Import,True
+7804,South America,Paraguay,36169051.0,1996,Import,True
+7805,South America,Suriname,64018000.0,1996,Import,True
+7806,South America,Uruguay,201731720.0,1996,Import,True
+7807,South America,Venezuela,32818469.0,1996,Import,True
+7808,Africa,Angola,972.0,1995,Import,True
+7809,Africa,Cote d'Ivoire,331076126.0,1995,Import,True
+7810,Africa,Democratic Republic of the Congo,1222945.0,1995,Import,True
+7811,Africa,Algeria,5478.0,1995,Import,True
+7812,Africa,Egypt,3404503.0,1995,Import,True
+7813,Africa,Ethiopia,58870209.0,1995,Import,True
+7814,Africa,Gambia,84463.0,1995,Import,True
+7815,Africa,Equatorial Guinea,634.0,1995,Import,True
+7816,Africa,Kenya,22080068.0,1995,Import,True
+7817,Africa,Liberia,13820112.0,1995,Import,True
+7818,Africa,Morocco,681123634.0,1995,Import,True
+7819,Africa,Madagascar,58590091.0,1995,Import,True
+7820,Africa,Mozambique,3745.0,1995,Import,True
+7821,Africa,Mauritania,19583420.0,1995,Import,True
+7822,Africa,Mauritius,553.0,1995,Import,True
+7823,Africa,Malawi,45390.0,1995,Import,True
+7824,Africa,Nigeria,5094129.0,1995,Import,True
+7825,Africa,Sudan,27613889.0,1995,Import,True
+7826,Africa,Tunisia,108202589.0,1995,Import,True
+7827,Africa,Tanzania,7335635.0,1995,Import,True
+7828,Africa,Uganda,613.0,1995,Import,True
+7829,Africa,South Africa,2000169184.0,1995,Import,True
+7830,Africa,Zambia,67837543.0,1995,Import,True
+7831,Africa,Zimbabwe,94604.0,1995,Import,True
+7832,Asia,United Arab Emirates,35258000.0,1995,Import,True
+7833,Asia,Bangladesh,46210467.0,1995,Import,True
+7834,Asia,Brunei,17458367.0,1995,Import,True
+7835,Asia,China,2273327706.0,1995,Import,True
+7836,Asia,Cyprus,87383163.0,1995,Import,True
+7837,Asia,Hong Kong,7933000.0,1995,Import,True
+7838,Asia,Indonesia,1176971009.0,1995,Import,True
+7839,Asia,India,2983812552.0,1995,Import,True
+7840,Asia,Israel,262964164.0,1995,Import,True
+7841,Asia,Jordan,319281026.0,1995,Import,True
+7842,Asia,Japan,26485259752.0,1995,Import,True
+7843,Asia,Kazakhstan,539199.0,1995,Import,True
+7844,Asia,Kyrgyzstan,417902.0,1995,Import,True
+7845,Asia,South Korea,9398001348.0,1995,Import,True
+7846,Asia,Sri Lanka,69179915.0,1995,Import,True
+7847,Asia,Burma,44072606.0,1995,Import,True
+7848,Asia,Malaysia,129575866.0,1995,Import,True
+7849,Asia,Oman,1109.0,1995,Import,True
+7850,Asia,Philippines,91192916.0,1995,Import,True
+7851,Asia,North Korea,130852993.0,1995,Import,True
+7852,Asia,Qatar,3050.0,1995,Import,True
+7853,Asia,Saudi Arabia,2568.0,1995,Import,True
+7854,Asia,Singapore,6087431421.0,1995,Import,True
+7855,Asia,Thailand,2577856746.0,1995,Import,True
+7856,Asia,Turkmenistan,354800.0,1995,Import,True
+7857,Asia,Turkey,2543904294.0,1995,Import,True
+7858,Asia,Chinese Taipei,1202342572.0,1995,Import,True
+7859,Asia,Yemen,164178000.0,1995,Import,True
+7860,Europe,Austria,891362526.0,1995,Import,True
+7861,Europe,Bulgaria,55998031.0,1995,Import,True
+7862,Europe,Belarus,4300.0,1995,Import,True
+7863,Europe,Belgium-Luxembourg,3379153603.0,1995,Import,True
+7864,Europe,Switzerland,622437678.0,1995,Import,True
+7865,Europe,Czechia,690172746.0,1995,Import,True
+7866,Europe,Germany,11856501474.0,1995,Import,True
+7867,Europe,Denmark,593802387.0,1995,Import,True
+7868,Europe,Spain,5624713245.0,1995,Import,True
+7869,Europe,Estonia,26435.0,1995,Import,True
+7870,Europe,Finland,1186824749.0,1995,Import,True
+7871,Europe,France,8923780609.0,1995,Import,True
+7872,Europe,United Kingdom,5981461573.0,1995,Import,True
+7873,Europe,Greece,1183304295.0,1995,Import,True
+7874,Europe,Croatia,595353686.0,1995,Import,True
+7875,Europe,Hungary,582207827.0,1995,Import,True
+7876,Europe,Ireland,276235531.0,1995,Import,True
+7877,Europe,Italy,9473573251.0,1995,Import,True
+7878,Europe,Lithuania,263829814.0,1995,Import,True
+7879,Europe,Latvia,487744.0,1995,Import,True
+7880,Europe,Moldova,134452.0,1995,Import,True
+7881,Europe,North Macedonia,22164698.0,1995,Import,True
+7882,Europe,Malta,42533290.0,1995,Import,True
+7883,Europe,Netherlands,8049432759.0,1995,Import,True
+7884,Europe,Norway,192772787.0,1995,Import,True
+7885,Europe,Poland,1433438268.0,1995,Import,True
+7886,Europe,Portugal,1518379666.0,1995,Import,True
+7887,Europe,Romania,954834305.0,1995,Import,True
+7888,Europe,Russia,17920234.0,1995,Import,True
+7889,Europe,Slovakia,540251953.0,1995,Import,True
+7890,Europe,Slovenia,68810810.0,1995,Import,True
+7891,Europe,Sweden,1997858516.0,1995,Import,True
+7892,Europe,Ukraine,10899.0,1995,Import,True
+7893,North America,Aruba,106692592.0,1995,Import,True
+7894,North America,Anguilla,210915008.0,1995,Import,True
+7895,North America,Netherlands Antilles,871380121.0,1995,Import,True
+7896,North America,Bahamas,34353892.0,1995,Import,True
+7897,North America,Barbados,158000.0,1995,Import,True
+7898,North America,Canada,3744705789.0,1995,Import,True
+7899,North America,Costa Rica,91506002.0,1995,Import,True
+7900,North America,Cuba,94390046.0,1995,Import,True
+7901,North America,Dominican Republic,156609614.0,1995,Import,True
+7902,North America,Guatemala,90158388.0,1995,Import,True
+7903,North America,Honduras,4207.0,1995,Import,True
+7904,North America,Jamaica,75634000.0,1995,Import,True
+7905,North America,Saint Lucia,70003232.0,1995,Import,True
+7906,North America,Mexico,13478.0,1995,Import,True
+7907,North America,Nicaragua,125820241.0,1995,Import,True
+7908,North America,Panama,119828886.0,1995,Import,True
+7909,North America,El Salvador,77252553.0,1995,Import,True
+7910,North America,Trinidad and Tobago,101643352.0,1995,Import,True
+7911,North America,United States,43706335026.0,1995,Import,True
+7912,Oceania,Australia,1691708193.0,1995,Import,True
+7913,Oceania,Fiji,2494.0,1995,Import,True
+7914,Oceania,New Zealand,453477482.0,1995,Import,True
+7915,Oceania,French Polynesia,6784.0,1995,Import,True
+7916,South America,Argentina,91743621.0,1995,Import,True
+7917,South America,Brazil,2589016672.0,1995,Import,True
+7918,South America,Chile,939948081.0,1995,Import,True
+7919,South America,Colombia,868.0,1995,Import,True
+7920,South America,Ecuador,6214891.0,1995,Import,True
+7921,South America,Peru,292583016.0,1995,Import,True
+7922,South America,Paraguay,28290098.0,1995,Import,True
+7923,South America,Suriname,18300000.0,1995,Import,True
+7924,South America,Uruguay,160650654.0,1995,Import,True
+7925,South America,Venezuela,47699.0,1995,Import,True
