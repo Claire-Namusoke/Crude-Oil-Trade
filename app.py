@@ -865,4 +865,3 @@ else:
     # Example: initialize OpenAI client
     import openai
     openai.api_key = api_key
-
