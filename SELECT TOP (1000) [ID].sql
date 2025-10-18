@@ -1,7 +1,0 @@
-SELECT TOP (1000) [ID]
-      ,[Continent]
-      ,[Country]
-      ,[TradeValue]
-      ,[Year]
-      ,[Action]
-  FROM [CrudeOilTrade].[dbo].[CrudeOilData]
