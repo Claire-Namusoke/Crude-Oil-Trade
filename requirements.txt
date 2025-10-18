@@ -3,9 +3,13 @@ pandas
 plotly
 numpy
 matplotlib
-langchain
-langchain-openai
-langchain-experimental
 pyodbc
 sqlalchemy
 tabulate
+
+# --- LangChain dependencies (stable working versions) ---
+langchain==0.1.14
+langchain-openai==0.0.8
+langchain-experimental==0.0.49
+openai
+

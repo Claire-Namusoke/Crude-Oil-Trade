@@ -285,11 +285,10 @@ import importlib
 _langchain_ok = importlib.util.find_spec("langchain") is not None
 _lcopenai_ok = importlib.util.find_spec("langchain_openai") is not None
 
-# Path for the .secret.env file (next to this script)
 import os
 import streamlit as st
 
-# Path for the .secret.env file (next to this script)
+# Path for the .secret.env file 
 _ENV_PATH = os.path.join(os.path.dirname(__file__), ".secret.env")
 _ENV_VAR = "OPENAI_API_KEY"
 
